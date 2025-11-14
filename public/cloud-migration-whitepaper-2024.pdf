@@ -1,0 +1,157 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+  /Font <<
+    /F1 5 0 R
+  >>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1500
+>>
+stream
+BT
+/F1 24 Tf
+50 720 Td
+(CLOUD MIGRATION WHITEPAPER 2024) Tj
+0 -40 Td
+/F1 16 Tf
+(Enterprise Best Practices & Success Strategies) Tj
+
+0 -60 Td
+/F1 14 Tf
+(MARKET INSIGHTS:) Tj
+0 -25 Td
+/F1 12 Tf
+(• 73% of enterprises use hybrid cloud strategy) Tj
+0 -20 Td
+(• $732B global cloud market by 2025) Tj
+0 -20 Td
+(• 52% of companies migrated majority to cloud) Tj
+0 -20 Td
+(• Average $152K annual infrastructure savings) Tj
+
+0 -40 Td
+/F1 14 Tf
+(THE 6-STEP MIGRATION FRAMEWORK) Tj
+
+0 -30 Td
+/F1 13 Tf
+(STEP 1: DISCOVERY & ASSESSMENT) Tj
+0 -20 Td
+/F1 12 Tf
+(• Application dependency mapping) Tj
+0 -15 Td
+(• Performance baseline establishment) Tj
+0 -15 Td
+(• Compliance requirement analysis) Tj
+
+0 -25 Td
+/F1 13 Tf
+(STEP 2: MIGRATION STRATEGY DESIGN) Tj
+0 -20 Td
+/F1 12 Tf
+(• Lift-and-shift vs. re-architecture) Tj
+0 -15 Td
+(• Multi-cloud vs. single provider) Tj
+0 -15 Td
+(• Timeline and resource planning) Tj
+
+0 -25 Td
+/F1 13 Tf
+(STEP 3: PROOF OF CONCEPT) Tj
+0 -20 Td
+/F1 12 Tf
+(• Pilot application selection) Tj
+0 -15 Td
+(• Performance validation testing) Tj
+0 -15 Td
+(• Cost-benefit analysis) Tj
+
+0 -25 Td
+/F1 13 Tf
+(STEP 4: DATA MIGRATION) Tj
+0 -20 Td
+/F1 12 Tf
+(• Secure transfer protocols) Tj
+0 -15 Td
+(• Data integrity verification) Tj
+0 -15 Td
+(• Backup and rollback procedures) Tj
+
+0 -25 Td
+/F1 13 Tf
+(STEP 5: TESTING & OPTIMIZATION) Tj
+0 -20 Td
+/F1 12 Tf
+(• Load testing and performance tuning) Tj
+0 -15 Td
+(• Security configuration validation) Tj
+0 -15 Td
+(• User acceptance testing) Tj
+
+0 -25 Td
+/F1 13 Tf
+(STEP 6: GO-LIVE & MONITORING) Tj
+0 -20 Td
+/F1 12 Tf
+(• Production cutover execution) Tj
+0 -15 Td
+(• Real-time monitoring setup) Tj
+0 -15 Td
+(• Continuous optimization) Tj
+
+0 -30 Td
+/F1 10 Tf
+(© 2024 Brillion Digital - Cloud Excellence) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000271 00000 n 
+0000001826 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1897
+%%EOF

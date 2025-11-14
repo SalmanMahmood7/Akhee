@@ -1,0 +1,210 @@
+/* Background System Utilities */
+
+/* Gradient Extensions */
+.bg-gradient-radial {
+  background-image: radial-gradient(var(--tw-gradient-stops));
+}
+
+.bg-gradient-conic {
+  background-image: conic-gradient(from 0deg, var(--tw-gradient-stops));
+}
+
+/* Clean Static Patterns - No Movement */
+.bg-pattern-dots {
+  background: transparent;
+}
+
+.bg-pattern-grid {
+  background: transparent;
+}
+
+.bg-pattern-diagonal {
+  background: transparent;
+}
+
+/* Clean Static Background Classes - No Movement */
+.bg-concept-a {
+  background: transparent;
+}
+
+.bg-concept-b {
+  background: transparent;
+}
+
+.bg-concept-c {
+  background: transparent;
+}
+
+/* Professional Software House Page Context Variations */
+.bg-context-home {
+  background-color: hsl(0 0% 99%);
+}
+
+.bg-context-services {
+  background-color: hsl(220 14% 96%);
+}
+
+.bg-context-about {
+  background-color: hsl(0 0% 99%);
+}
+
+.bg-context-contact {
+  background-color: hsl(220 14% 96%);
+}
+
+.bg-context-work {
+  background-color: hsl(0 0% 99%);
+}
+
+.bg-context-insights {
+  background-color: hsl(220 14% 96%);
+}
+
+/* No animations - completely static */
+.bg-animate-float,
+.bg-animate-drift,
+.bg-animate-pulse-slow,
+[class*="animate-"],
+[class*="bg-animate"] {
+  animation: none !important;
+  transform: none !important;
+}
+
+/* Keyframes */
+@keyframes backgroundFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+    opacity: 0.7;
+  }
+}
+
+@keyframes backgroundDrift {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-50px);
+  }
+}
+
+@keyframes backgroundPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+/* Intensity Variations */
+.bg-intensity-subtle {
+  opacity: 0.3;
+}
+
+.bg-intensity-medium {
+  opacity: 0.5;
+}
+
+.bg-intensity-bold {
+  opacity: 0.7;
+}
+
+/* Responsive Optimizations */
+@media (max-width: 768px) {
+  .bg-concept-a,
+  .bg-concept-b,
+  .bg-concept-c {
+    opacity: 0.4;
+  }
+  
+  .bg-animate-float,
+  .bg-animate-drift,
+  .bg-animate-pulse-slow {
+    animation-duration: 40s;
+  }
+  
+  .bg-pattern-dots {
+    background-size: 30px 30px;
+  }
+  
+  .bg-pattern-grid {
+    background-size: 75px 75px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-concept-a,
+  .bg-concept-b, 
+  .bg-concept-c {
+    opacity: 0.25;
+  }
+  
+  .bg-pattern-dots {
+    background-size: 40px 40px;
+  }
+  
+  .bg-pattern-grid {
+    background-size: 100px 100px;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .bg-animate-float,
+  .bg-animate-drift,
+  .bg-animate-pulse-slow {
+    animation: none !important;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .bg-concept-a,
+  .bg-concept-b,
+  .bg-concept-c {
+    opacity: 0.1 !important;
+  }
+}
+
+/* MNP Digital Dark Mode Adaptations */
+@media (prefers-color-scheme: dark) {
+  .bg-concept-a {
+    background: 
+      radial-gradient(circle at 20% 30%, rgba(16, 127, 138, 0.06) 0%, transparent 50%),
+      radial-gradient(circle at 80% 70%, rgba(241, 90, 34, 0.04) 0%, transparent 50%);
+  }
+  
+  .bg-concept-b {
+    background:
+      linear-gradient(135deg, rgba(16, 127, 138, 0.03) 0%, transparent 50%),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 49px,
+        rgba(16, 127, 138, 0.02) 50px
+      );
+  }
+  
+  .bg-concept-c {
+    background:
+      conic-gradient(from 0deg, rgba(16, 127, 138, 0.04) 0deg, rgba(241, 90, 34, 0.03) 180deg, rgba(16, 127, 138, 0.04) 360deg),
+      radial-gradient(ellipse at center, rgba(16, 127, 138, 0.03) 0%, transparent 70%);
+  }
+}
+
+/* Print Styles */
+@media print {
+  .bg-concept-a,
+  .bg-concept-b,
+  .bg-concept-c,
+  [class*="bg-pattern-"] {
+    background: none !important;
+    opacity: 1 !important;
+  }
+}

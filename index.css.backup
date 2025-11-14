@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background system styles */
+@import './styles/backgrounds.css';
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* MNP Digital Professional Color Scheme */
+    --background: 0 0% 100%; /* Pure white background #FFFFFF */
+    --foreground: 0 0% 0%; /* Black text #000000 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    /* MNP Teal Primary */
+    --primary: 189 94% 32%; /* MNP Teal #107F8A */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%; /* Light gray surface #F5F5F5 */
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 75%;
+
+    /* MNP Orange accent */
+    --accent: 16 100% 54%; /* MNP Orange #F15A22 */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 14% 83%;
+    --input: 0 0% 96%;
+    --ring: 189 94% 32%;
+
+    --radius: 0.75rem;
+    
+    /* MNP Digital Professional Design Tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(189 94% 32%) 0%, hsl(208 100% 46%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(16 100% 54%) 0%, hsl(189 94% 32%) 100%); /* MNP Orange to Teal */
+    --gradient-hero: linear-gradient(135deg, hsl(207 44% 19%) 0%, hsl(189 94% 32%) 50%, hsl(208 100% 46%) 100%);
+    --gradient-digital: linear-gradient(135deg, hsl(189 94% 32% / 0.1) 0%, hsl(16 100% 54% / 0.05) 100%);
+    --gradient-glow: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), hsl(189 94% 32% / 0.15), transparent 40%);
+    --shadow-elegant: 0 10px 30px -10px hsl(207 44% 19% / 0.2);
+    --shadow-glow: 0 0 40px hsl(189 94% 32% / 0.3);
+    --shadow-cyber: 0 0 20px hsl(16 100% 54% / 0.4), 0 0 40px hsl(189 94% 32% / 0.2);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* MNP Digital Dark Mode Theme */
+    --background: 207 44% 19%; /* MNP Navy background */
+    --foreground: 0 0% 100%; /* White text */
+
+    --card: 207 44% 19%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 207 44% 19%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Dark Mode Primary - MNP Teal */
+    --primary: 189 94% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 207 44% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 207 44% 25%;
+    --muted-foreground: 0 0% 75%;
+
+    /* Dark Mode Accent - MNP Orange */
+    --accent: 16 100% 54%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 207 44% 25%;
+    --input: 207 44% 25%;
+    --ring: 189 94% 32%;
+    
+    /* MNP Digital Dark Mode Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(189 94% 32%) 0%, hsl(208 100% 46%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(16 100% 54%) 0%, hsl(189 94% 32%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(207 44% 19%) 0%, hsl(207 44% 25%) 50%, hsl(207 44% 19%) 100%);
+    --gradient-digital: linear-gradient(135deg, hsl(189 94% 32% / 0.2) 0%, hsl(16 100% 54% / 0.1) 100%);
+    --gradient-glow: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), hsl(189 94% 32% / 0.25), transparent 40%);
+    --shadow-elegant: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 40px hsl(189 94% 32% / 0.4);
+    --shadow-cyber: 0 0 20px hsl(16 100% 54% / 0.6), 0 0 40px hsl(189 94% 32% / 0.4);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* MNP Digital Professional Background System */
+@layer components {
+  /* Clean Corporate Background */
+  .bg-clean-corporate {
+    background-color: hsl(var(--background));
+    position: relative;
+  }
+
+  .bg-clean-corporate::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-digital);
+    z-index: 1;
+  }
+
+  /* Subtle Grid Pattern */
+  .bg-subtle-grid {
+    background-color: hsl(var(--background));
+    background-image: 
+      linear-gradient(hsl(189 94% 32% / 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(189 94% 32% / 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    position: relative;
+  }
+
+  /* Minimal Accent Pattern */
+  .bg-minimal-accent {
+    background-color: hsl(var(--background));
+    background-image: 
+      radial-gradient(circle at 20% 20%, hsl(189 94% 32% / 0.05) 0%, transparent 40%),
+      radial-gradient(circle at 80% 80%, hsl(16 100% 54% / 0.03) 0%, transparent 40%);
+    background-size: 200px 200px, 200px 200px;
+  }
+
+  /* Clean Section Divider */
+  .bg-section-divider {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--background)) 0%,
+      hsl(0 0% 96%) 50%,
+      hsl(var(--background)) 100%
+    );
+  }
+
+  /* Soft Gradient Background */
+  .bg-soft-gradient {
+    background: linear-gradient(
+      180deg,
+      hsl(var(--background)) 0%,
+      hsl(189 94% 32% / 0.02) 25%,
+      hsl(16 100% 54% / 0.02) 75%,
+      hsl(var(--background)) 100%
+    );
+  }
+
+  /* Corporate Glow - Very Subtle */
+  .bg-corporate-glow {
+    background: 
+      radial-gradient(ellipse at top, hsl(189 94% 32% / 0.03), transparent 50%),
+      radial-gradient(ellipse at bottom, hsl(16 100% 54% / 0.02), transparent 50%),
+      hsl(var(--background));
+  }
+
+  /* Clean White Background */
+  .bg-clean-white {
+    background-color: hsl(var(--background));
+  }
+
+  /* Light Section Background */
+  .bg-light-section {
+    background-color: hsl(var(--secondary));
+  }
+}
+
+/* Clean Corporate Animations */
+@keyframes corporateWave {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Subtle floating elements animation */
+@keyframes subtleFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Gentle glow animation */
+@keyframes gentleGlow {
+  0%, 100% { box-shadow: 0 0 15px hsl(189 94% 32% / 0.2); }
+  50% { box-shadow: 0 0 25px hsl(189 94% 32% / 0.4), 0 0 35px hsl(16 100% 54% / 0.2); }
+}
+
+/* Fade in animation */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Utility classes */
+.animate-subtle-float { animation: subtleFloat 8s ease-in-out infinite; }
+.animate-gentle-glow { animation: gentleGlow 3s ease-in-out infinite; }
+.animate-fade-in-up { animation: fadeInUp 0.8s ease-out; }

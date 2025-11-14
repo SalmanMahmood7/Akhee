@@ -1,0 +1,95 @@
+/* Professional Software House Clean Background - Concept B */
+
+.bg-concept-b {
+  background: #f3f4f6 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Clean static background - no grid patterns */
+.bg-concept-b::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: transparent !important;
+  animation: none !important;
+}
+
+/* No wave overlay - clean design */
+.bg-concept-b::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: transparent !important;
+  animation: none !important;
+}
+
+/* No geometric accents - professional clean look */
+.bg-concept-b-accents {
+  display: none !important;
+}
+
+/* No data flow lines - clean design */
+.bg-concept-b-flow {
+  display: none !important;
+}
+
+/* Remove all animations */
+@keyframes gridFlow { 0%, 100% { transform: none; } }
+@keyframes waveFlow { 0%, 100% { transform: none; } }
+@keyframes accentsFloat { 0%, 100% { transform: none; } }
+@keyframes flowPulse { 0%, 100% { transform: none; } }
+
+/* Clean page variations - light gray backgrounds */
+.bg-concept-b.page-home,
+.bg-concept-b.page-services,
+.bg-concept-b.page-about {
+  background: #f3f4f6 !important;
+}
+
+.bg-concept-b.page-home::before,
+.bg-concept-b.page-services::before,
+.bg-concept-b.page-about::before {
+  background: transparent !important;
+}
+
+/* All responsive - keep clean */
+@media (max-width: 768px) {
+  .bg-concept-b::before,
+  .bg-concept-b::after {
+    animation: none !important;
+    background: transparent !important;
+  }
+  
+  .bg-concept-b-accents,
+  .bg-concept-b-flow {
+    display: none !important;
+  }
+}
+
+/* Force no animations everywhere */
+@media (prefers-reduced-motion: reduce) {
+  .bg-concept-b::before,
+  .bg-concept-b::after,
+  .bg-concept-b-accents,
+  .bg-concept-b-flow {
+    animation: none !important;
+    display: none !important;
+  }
+}
+
+/* High contrast - keep simple */
+@media (prefers-contrast: high) {
+  .bg-concept-b::before,
+  .bg-concept-b::after,
+  .bg-concept-b-accents,
+  .bg-concept-b-flow {
+    display: none !important;
+  }
+}

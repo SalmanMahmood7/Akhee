@@ -1,0 +1,135 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+  /Font <<
+    /F1 5 0 R
+  >>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 1400
+>>
+stream
+BT
+/F1 24 Tf
+50 720 Td
+(CYBERSECURITY ASSESSMENT GUIDE 2024) Tj
+0 -40 Td
+/F1 16 Tf
+(Protect Your Enterprise from Modern Threats) Tj
+
+0 -60 Td
+/F1 14 Tf
+(THREAT LANDSCAPE STATISTICS:) Tj
+0 -25 Td
+/F1 12 Tf
+(• Average data breach cost: $4.88 million) Tj
+0 -20 Td
+(• 68% of breaches involve human element) Tj
+0 -20 Td
+(• 277 days average breach detection time) Tj
+0 -20 Td
+(• $87B cybersecurity spending in 2024) Tj
+
+0 -40 Td
+/F1 14 Tf
+(SECURITY ASSESSMENT FRAMEWORK) Tj
+
+0 -30 Td
+/F1 13 Tf
+(1. NETWORK SECURITY AUDIT) Tj
+0 -20 Td
+/F1 12 Tf
+(□ Firewall configuration review) Tj
+0 -15 Td
+(□ Network segmentation analysis) Tj
+0 -15 Td
+(□ VPN security assessment) Tj
+
+0 -30 Td
+/F1 13 Tf
+(2. DATA PROTECTION REVIEW) Tj
+0 -20 Td
+/F1 12 Tf
+(□ Encryption implementation check) Tj
+0 -15 Td
+(□ Backup and recovery testing) Tj
+0 -15 Td
+(□ Data classification audit) Tj
+
+0 -30 Td
+/F1 13 Tf
+(3. IDENTITY & ACCESS MANAGEMENT) Tj
+0 -20 Td
+/F1 12 Tf
+(□ Multi-factor authentication status) Tj
+0 -15 Td
+(□ Privileged access controls) Tj
+0 -15 Td
+(□ User access rights review) Tj
+
+0 -30 Td
+/F1 13 Tf
+(4. INCIDENT RESPONSE PLANNING) Tj
+0 -20 Td
+/F1 12 Tf
+(□ Response team identification) Tj
+0 -15 Td
+(□ Communication protocols) Tj
+0 -15 Td
+(□ Recovery procedures testing) Tj
+
+0 -40 Td
+/F1 10 Tf
+(© 2024 Brillion Digital - Cybersecurity Excellence) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000271 00000 n 
+0000001726 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+1797
+%%EOF

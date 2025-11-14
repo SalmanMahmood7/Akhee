@@ -1,0 +1,106 @@
+/* Professional Software House Clean Background - Concept C */
+
+.bg-concept-c {
+  background: #ffffff !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Clean static background - no gradients */
+.bg-concept-c::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: transparent !important;
+  animation: none !important;
+}
+
+/* No geometric patterns - clean design */
+.bg-concept-c::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: transparent !important;
+  animation: none !important;
+}
+
+/* No floating accents - professional clean look */
+.bg-concept-c-accents {
+  display: none !important;
+}
+
+/* No network connections - clean design */
+.bg-concept-c-network {
+  display: none !important;
+}
+
+/* Remove all animations */
+@keyframes gradientFlow { 0%, 100% { transform: none; } }
+@keyframes geometricShift { 0%, 100% { transform: none; } }
+@keyframes accentsOrbit { 0%, 100% { transform: none; } }
+@keyframes networkPulse { 0%, 100% { transform: none; } }
+
+/* Clean page variations - pure white */
+.bg-concept-c.page-home,
+.bg-concept-c.page-services,
+.bg-concept-c.page-about {
+  background: #ffffff !important;
+}
+
+.bg-concept-c.page-home::before,
+.bg-concept-c.page-services::before,
+.bg-concept-c.page-about::before {
+  background: transparent !important;
+}
+
+/* All responsive - keep clean */
+@media (max-width: 1024px) {
+  .bg-concept-c::after {
+    display: none !important;
+  }
+  
+  .bg-concept-c-accents,
+  .bg-concept-c-network {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-concept-c::before,
+  .bg-concept-c::after {
+    animation: none !important;
+    background: transparent !important;
+  }
+  
+  .bg-concept-c-accents,
+  .bg-concept-c-network {
+    display: none !important;
+  }
+}
+
+/* Force no animations everywhere */
+@media (prefers-reduced-motion: reduce) {
+  .bg-concept-c::before,
+  .bg-concept-c::after,
+  .bg-concept-c-accents,
+  .bg-concept-c-network {
+    animation: none !important;
+    display: none !important;
+  }
+}
+
+/* High contrast - keep simple */
+@media (prefers-contrast: high) {
+  .bg-concept-c::before,
+  .bg-concept-c::after,
+  .bg-concept-c-accents,
+  .bg-concept-c-network {
+    display: none !important;
+  }
+}

@@ -1,0 +1,145 @@
+/* Professional Software House Clean Backgrounds - No Animations */
+
+/* ========================================
+   PROFESSIONAL CLEAN STYLES - NO ANIMATIONS
+   ======================================== */
+
+.bg-concept-a-inline {
+  background: #f9fafb !important;
+  animation: none !important;
+}
+
+@keyframes conceptAFlow { 0%, 100% { transform: none; } }
+
+.bg-concept-b-inline {
+  background: #f3f4f6 !important;
+  animation: none !important;
+}
+
+@keyframes conceptBFlow { 0%, 100% { transform: none; } }
+
+.bg-concept-c-inline {
+  background: #ffffff !important;
+  animation: none !important;
+}
+
+@keyframes conceptCFlow { 0%, 100% { transform: none; } }
+
+/* ========================================
+   CLEAN STATIC VERSIONS
+   ======================================== */
+
+/* All static versions - clean professional backgrounds */
+.bg-concept-a-static {
+  background: #f9fafb !important;
+}
+
+.bg-concept-b-static {
+  background: #f3f4f6 !important;
+}
+
+.bg-concept-c-static {
+  background: #ffffff !important;
+}
+
+/* Page-specific variations */
+.page-home .bg-concept-a-inline,
+.page-home .bg-concept-a-static {
+  filter: brightness(1.1) saturate(1.2);
+}
+
+.page-services .bg-concept-b-inline,
+.page-services .bg-concept-b-static {
+  filter: hue-rotate(15deg) brightness(1.05);
+}
+
+.page-about .bg-concept-c-inline,
+.page-about .bg-concept-c-static {
+  filter: hue-rotate(-10deg) brightness(0.95) contrast(1.1);
+}
+
+/* Responsive optimizations */
+@media (max-width: 768px) {
+  .bg-concept-a-inline,
+  .bg-concept-b-inline,
+  .bg-concept-c-inline {
+    opacity: 0.7;
+    animation-duration: 60s;
+  }
+  
+  .bg-concept-a-inline {
+    background-size: 120px 120px, 160px 160px, 100% 100%, 100% 100%, 100% 100%;
+  }
+  
+  .bg-concept-b-inline {
+    background-size: 800px 400px, 150px 150px, 150px 150px, 400px 400px, 400px 400px;
+  }
+  
+  .bg-concept-c-inline {
+    background-size: 180px 180px, 100% 100%, 100% 100%, 100% 100%;
+  }
+}
+
+/* Performance optimizations */
+.bg-concept-a-inline,
+.bg-concept-b-inline,
+.bg-concept-c-inline {
+  will-change: background-position;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* GPU acceleration for smoother animations */
+@supports (transform: translateZ(0)) {
+  .bg-concept-a-inline,
+  .bg-concept-b-inline,
+  .bg-concept-c-inline {
+    transform: translateZ(0);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .bg-concept-a-inline,
+  .bg-concept-b-inline,
+  .bg-concept-c-inline {
+    animation: none !important;
+    will-change: auto;
+    transform: none;
+  }
+}
+
+/* Battery saving mode */
+@media (max-width: 480px) and (pointer: coarse) {
+  .bg-concept-a-inline,
+  .bg-concept-b-inline,
+  .bg-concept-c-inline {
+    animation-duration: 120s;
+    opacity: 0.6;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .bg-concept-a-inline,
+  .bg-concept-b-inline,
+  .bg-concept-c-inline,
+  .bg-concept-a-static,
+  .bg-concept-b-static,
+  .bg-concept-c-static {
+    opacity: 0.2 !important;
+    filter: none !important;
+  }
+}
+
+/* Print styles */
+@media print {
+  .bg-concept-a-inline,
+  .bg-concept-b-inline,
+  .bg-concept-c-inline,
+  .bg-concept-a-static,
+  .bg-concept-b-static,
+  .bg-concept-c-static {
+    background: none !important;
+  }
+}
