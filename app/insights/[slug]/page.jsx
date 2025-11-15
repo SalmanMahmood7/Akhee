@@ -24,13 +24,13 @@ const fetchArticleBySlug = async (slug) => {
 export default function ArticlePage() {
   const params = useParams();
   const router = useRouter();
-  const slug = params.slug as string;
+  const slug = params.slug;
 
   // Fetch article from API
   const { data, isLoading, error } = useQuery({
-    queryKey['article', slug],
-    queryFn() => fetchArticleBySlug(slug),
-    staleTime5 * 60 * 1000, // 5 minutes
+    queryKey: ['article', slug],
+    queryFn: () => fetchArticleBySlug(slug),
+    staleTime: 5 * 60 * 1000, // 5 minutes
   });
 
   // Loading state

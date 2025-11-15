@@ -34,14 +34,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Accelerated decision-making process by 60%",
       "Improved strategic alignment across departments",
       "Enhanced visibility into transformation progress",
       "Reduced implementation risks through proper planning",
       "Better resource allocation and budget management"
     ],
-    useCases[
+    useCases: [
       {
         title: "Enterprise Digital Transformation",
         description: "Large organizations planning comprehensive digital overhauls",
@@ -123,14 +123,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Improved decision-making speed by 75%",
       "Enhanced data accuracy and reliability",
       "Reduced manual reporting time by 80%",
       "Better understanding of customer behavior patterns",
       "Increased operational efficiency through data insights"
     ],
-    useCases[
+    useCases: [
       {
         title: "Sales Performance Analysis",
         description: "Track sales metrics, pipeline performance, and revenue forecasting",
@@ -212,14 +212,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Reduced infrastructure costs by up to 50%",
       "Improved scalability and flexibility", 
       "Enhanced disaster recovery capabilities",
       "Faster deployment and time-to-market",
       "Global reach and availability"
     ],
-    useCases[
+    useCases: [
       {
         title: "Application Hosting",
         description: "Host web applications and services with high availability",
@@ -301,14 +301,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Reduced processing time by up to 80%",
       "Improved accuracy and consistency",
       "Lower operational costs",
       "Enhanced employee productivity",
       "Better compliance and audit trails"
     ],
-    useCases[
+    useCases: [
       {
         title: "Invoice Processing",
         description: "Automated invoice approval and payment workflows",
@@ -390,14 +390,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "99.9% threat detection accuracy",
       "Reduced security incidents by 75%",
       "Improved compliance posture",
       "Faster incident response times",
       "Enhanced business continuity"
     ],
-    useCases[
+    useCases: [
       {
         title: "Endpoint Protection",
         description: "Secure all devices and endpoints across the organization",
@@ -479,14 +479,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Improved team productivity by 40%",
       "Reduced email volume by 60%",
       "Enhanced remote work capabilities",
       "Better project visibility and tracking",
       "Streamlined decision-making processes"
     ],
-    useCases[
+    useCases: [
       {
         title: "Remote Teams",
         description: "Enable effective collaboration for distributed teams",
@@ -568,14 +568,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Improved decision accuracy by 85%",
       "Reduced operational costs by 30%",
       "Enhanced customer experience",
       "Automated complex processes",
       "Real-time insights and predictions"
     ],
-    useCases[
+    useCases: [
       {
         title: "Demand Forecasting",
         description: "Predict customer demand and optimize inventory",
@@ -657,14 +657,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Increased customer satisfaction by 50%",
       "Improved conversion rates by 35%",
       "Enhanced customer retention",
       "Better brand consistency",
       "Reduced customer service costs"
     ],
-    useCases[
+    useCases: [
       {
         title: "E-commerce Personalization",
         description: "Personalized shopping experiences and recommendations",
@@ -747,14 +747,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Faster data analysis and model development",
       "Access to extensive open-source libraries",
       "Strong community support and documentation",
       "Cross-platform compatibility",
       "Integration with enterprise systems"
     ],
-    useCases[
+    useCases: [
       {
         title: "Predictive Analytics",
         description: "Build forecasting models for business planning",
@@ -836,14 +836,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Accelerated AI development lifecycle",
       "Scalable model training and deployment",
       "Strong ecosystem and community support",
       "Production-ready model serving",
       "Cross-platform compatibility"
     ],
-    useCases[
+    useCases: [
       {
         title: "Computer Vision",
         description: "Image recognition and automated visual inspection",
@@ -926,14 +926,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Faster development with reusable components",
       "Improved SEO and page performance",
       "Strong ecosystem and community support",
       "Mobile-responsive design capabilities",
       "Easy maintenance and updates"
     ],
-    useCases[
+    useCases: [
       {
         title: "E-commerce Platforms",
         description: "Build fast, interactive online shopping experiences",
@@ -1016,14 +1016,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Pay-as-you-use pricing model",
       "Global availability and reliability",
       "Extensive service ecosystem",
       "Strong security and compliance",
       "Rapid scaling capabilities"
     ],
-    useCases[
+    useCases: [
       {
         title: "Web Applications",
         description: "Host scalable web applications with auto-scaling",
@@ -1105,14 +1105,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Process petabytes of data with sub-second latency",
       "Handle real-time analytics and streaming workloads",
       "Reduce data processing costs by up to 70%",
       "Enable real-time decision making capabilities",
       "Seamless integration with existing data infrastructure"
     ],
-    useCases[
+    useCases: [
       {
         title: "Real-time Analytics",
         description: "Process streaming data for immediate insights and alerts",
@@ -1194,14 +1194,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Reduce report creation time by 80%",
       "Improve data-driven decision making across organization",
       "Increase user adoption with intuitive interfaces",
       "Lower total cost of ownership compared to custom solutions",
       "Enable real-time monitoring of business KPIs"
     ],
-    useCases[
+    useCases: [
       {
         title: "Executive Dashboards",
         description: "High-level KPI monitoring for leadership teams",
@@ -1283,14 +1283,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Reduce time-to-market for AI solutions by 60%",
       "Lower ML infrastructure costs with pay-per-use model",
       "Access to enterprise-grade security and compliance",
       "Seamless integration with existing cloud services",
       "Global availability and low-latency inference"
     ],
-    useCases[
+    useCases: [
       {
         title: "Predictive Maintenance",
         description: "Forecast equipment failures and optimize maintenance schedules",
@@ -1372,14 +1372,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Handle millions of search queries per second",
       "Reduce data query response time by 90%",
       "Scale horizontally to petabyte-scale datasets",
       "Enable real-time analytics and monitoring",
       "Simplify application development with flexible schemas"
     ],
-    useCases[
+    useCases: [
       {
         title: "E-commerce Search",
         description: "Power product search and recommendations for online stores",
@@ -1461,14 +1461,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Accelerate data science development by 50%",
       "Automate complex data pipeline execution",
       "Enable reproducible research and analysis",
       "Improve collaboration between data teams",
       "Reduce manual workflow management overhead"
     ],
-    useCases[
+    useCases: [
       {
         title: "Data Pipeline Automation",
         description: "Automate ETL processes and data transformations",
@@ -1550,14 +1550,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Rapid application development and prototyping",
       "Excellent performance for I/O intensive applications",
       "Strong ecosystem and community support",
       "Easy integration with databases and cloud services",
       "Cost-effective development and maintenance"
     ],
-    useCases[
+    useCases: [
       {
         title: "Web Applications",
         description: "Build dynamic web applications with server-side rendering",
@@ -1639,14 +1639,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Support both structured and unstructured data",
       "Excellent performance for read and write operations",
       "Strong consistency and reliability guarantees",
       "Extensive ecosystem and tooling support",
       "Cost-effective compared to enterprise databases"
     ],
-    useCases[
+    useCases: [
       {
         title: "E-commerce Platforms",
         description: "Handle product catalogs, orders, and customer data",
@@ -1728,14 +1728,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Reduce development time by 50% compared to native development",
       "Lower maintenance costs with unified codebase",
       "Faster time-to-market for mobile applications",
       "Consistent user experience across platforms",
       "Access to device-specific features and APIs"
     ],
-    useCases[
+    useCases: [
       {
         title: "E-commerce Apps",
         description: "Build shopping apps with payment integration and catalogs",
@@ -1817,14 +1817,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Enhanced decision-making with intelligent insights",
       "Automated processes reduce manual workload by 70%",
       "Improved user experience with personalization",
       "Reduced operational costs through automation",
       "Competitive advantage through AI-powered features"
     ],
-    useCases[
+    useCases: [
       {
         title: "Smart Recommendations",
         description: "Personalized product and content recommendations",
@@ -1906,14 +1906,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Enhanced security and fraud prevention",
       "Reduced transaction costs and intermediaries",
       "Improved transparency and trust",
       "Automated processes through smart contracts",
       "Global accessibility and 24/7 operations"
     ],
-    useCases[
+    useCases: [
       {
         title: "Supply Chain Tracking",
         description: "Track products from origin to consumer with transparency",
@@ -1995,14 +1995,14 @@ const technologiesData = {
         icon: Code2
       }
     ],
-    benefits[
+    benefits: [
       "99.99% availability SLA with global reach",
       "Integrated with Microsoft 365 and Office suite",
       "Strong enterprise security and compliance",
       "Cost-effective with flexible pricing options",
       "Extensive partner ecosystem and support"
     ],
-    useCases[
+    useCases: [
       {
         title: "Enterprise Applications",
         description: "Host mission-critical business applications",
@@ -2084,14 +2084,14 @@ const technologiesData = {
         icon: Code2
       }
     ],
-    benefits[
+    benefits: [
       "Access to Google's AI and ML innovations",
       "Exceptional performance for data analytics workloads",
       "Competitive pricing with sustained use discounts",
       "Strong commitment to open source technologies",
       "Advanced security with Google's expertise"
     ],
-    useCases[
+    useCases: [
       {
         title: "Data Analytics",
         description: "Process massive datasets with BigQuery and Dataflow",
@@ -2173,14 +2173,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Improved resilience and disaster recovery",
       "Enhanced negotiating power with cloud providers",
       "Optimal performance through strategic workload placement",
       "Reduced costs through competitive pricing",
       "Compliance with data sovereignty requirements"
     ],
-    useCases[
+    useCases: [
       {
         title: "Global Operations",
         description: "Deploy applications across regions with optimal cloud providers",
@@ -2262,14 +2262,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Complete control over infrastructure and data",
       "Enhanced security and privacy protection",
       "Predictable performance and costs",
       "Simplified compliance and audit processes",
       "Customizable to specific business requirements"
     ],
-    useCases[
+    useCases: [
       {
         title: "Financial Services",
         description: "Handle sensitive financial data with regulatory compliance",
@@ -2351,14 +2351,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Reduced latency for real-time applications",
       "Lower bandwidth costs and network traffic",
       "Improved reliability with distributed processing",
       "Enhanced data privacy with local processing",
       "Better user experience with faster response times"
     ],
-    useCases[
+    useCases: [
       {
         title: "IoT Applications",
         description: "Process sensor data from industrial equipment in real-time",
@@ -2440,14 +2440,14 @@ const technologiesData = {
         icon: Target
       }
     ],
-    benefits[
+    benefits: [
       "Faster time-to-market with automated processes",
       "Improved software quality through continuous testing",
       "Reduced deployment risks with automated rollbacks",
       "Enhanced collaboration between teams",
       "Increased operational efficiency and reliability"
     ],
-    useCases[
+    useCases: [
       {
         title: "Software Development",
         description: "Accelerate application development and deployment cycles",

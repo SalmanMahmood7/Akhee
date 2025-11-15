@@ -37,9 +37,9 @@ const iconMapping = {
 };
 
 export default function Services() {
-  const [services, setServices] = useState<Service[]>([]);
+  const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     loadServices();
