@@ -7,31 +7,31 @@ import { notFound } from "next/navigation";
 
 // Technology data structure
 const technologiesData = {
-  "digital-strategy-tools"{
-    title"Digital Strategy Tools",
-    category"Strategic Planning",
-    description"Advanced strategic planning and roadmapping platforms that enable organizations to develop comprehensive digital transformation strategies.",
-    fullDescription"Digital strategy tools are essential platforms that help organizations navigate their digital transformation journey through systematic planning, analysis, and roadmapping. These tools provide frameworks for assessing digital maturity, identifying opportunities, and creating actionable implementation plans.",
-    features[
+  "digital-strategy-tools": {
+    title: "Digital Strategy Tools",
+    category: "Strategic Planning",
+    description: "Advanced strategic planning and roadmapping platforms that enable organizations to develop comprehensive digital transformation strategies.",
+    fullDescription: "Digital strategy tools are essential platforms that help organizations navigate their digital transformation journey through systematic planning, analysis, and roadmapping. These tools provide frameworks for assessing digital maturity, identifying opportunities, and creating actionable implementation plans.",
+    features: [
       {
-        title"Strategic Assessment",
-        description"Comprehensive evaluation of current digital capabilities and market position",
-        icon
+        title: "Strategic Assessment",
+        description: "Comprehensive evaluation of current digital capabilities and market position",
+        icon: Target
       },
       {
-        title"Roadmap Creation",
-        description"Visual timeline development with milestones, dependencies, and resource allocation",
-        icon
+        title: "Roadmap Creation",
+        description: "Visual timeline development with milestones, dependencies, and resource allocation",
+        icon: Target
       },
       {
-        title"ROI Analysis",
-        description"Financial modeling and return on investment calculations for digital initiatives",
-        icon
+        title: "ROI Analysis",
+        description: "Financial modeling and return on investment calculations for digital initiatives",
+        icon: Target
       },
       {
-        title"Stakeholder Alignment",
-        description"Collaborative planning tools that ensure organizational buy-in and commitment",
-        icon
+        title: "Stakeholder Alignment",
+        description: "Collaborative planning tools that ensure organizational buy-in and commitment",
+        icon: Target
       }
     ],
     benefits[
@@ -43,19 +43,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Enterprise Digital Transformation",
-        description"Large organizations planning comprehensive digital overhauls",
-        industry"Enterprise"
+        title: "Enterprise Digital Transformation",
+        description: "Large organizations planning comprehensive digital overhauls",
+        industry: "Enterprise"
       },
       {
-        title"Market Expansion Strategy",
-        description"Companies entering new digital markets or channels",
-        industry"Retail & E-commerce"
+        title: "Market Expansion Strategy",
+        description: "Companies entering new digital markets or channels",
+        industry: "Retail & E-commerce"
       },
       {
-        title"Technology Modernization",
-        description"Organizations upgrading legacy systems and processes",
-        industry"Manufacturing"
+        title: "Technology Modernization",
+        description: "Organizations upgrading legacy systems and processes",
+        industry: "Manufacturing"
       }
     ],
     technologies["Microsoft Visio", "Miro", "Lucidchart", "Tableau", "Power BI", "SWOT Analysis Frameworks"],
@@ -73,54 +73,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Assessment & Discovery",
-          duration"2-3 weeks",
-          description"Current state analysis and strategic goal definition"
+          title: "Assessment & Discovery",
+          duration: "2-3 weeks",
+          description: "Current state analysis and strategic goal definition"
         },
         {
-          title"Strategy Development",
-          duration"3-4 weeks", 
-          description"Comprehensive digital strategy creation with stakeholder input"
+          title: "Strategy Development",
+          duration: "3-4 weeks", 
+          description: "Comprehensive digital strategy creation with stakeholder input"
         },
         {
-          title"Roadmap Planning",
-          duration"2-3 weeks",
-          description"Detailed implementation roadmap with timelines and resources"
+          title: "Roadmap Planning",
+          duration: "2-3 weeks",
+          description: "Detailed implementation roadmap with timelines and resources"
         },
         {
-          title"Execution Support",
-          duration"Ongoing",
-          description"Continuous monitoring and strategy refinement"
+          title: "Execution Support",
+          duration: "Ongoing",
+          description: "Continuous monitoring and strategy refinement"
         }
       ]
     },
     relatedServices["Digital Advisory", "Technology Assessment", "Change Management"]
   },
-  "analytics-bi-platforms"{
-    title"Analytics & BI Platforms", 
-    category"Business Intelligence",
-    description"Comprehensive business intelligence and analytics solutions that transform raw data into actionable insights for strategic decision-making.",
-    fullDescription"Analytics and Business Intelligence platforms are powerful tools that help organizations collect, process, and analyze vast amounts of data to uncover trends, patterns, and insights. These platforms enable data-driven decision making across all levels of an organization.",
-    features[
+  "analytics-bi-platforms": {
+    title: "Analytics & BI Platforms", 
+    category: "Business Intelligence",
+    description: "Comprehensive business intelligence and analytics solutions that transform raw data into actionable insights for strategic decision-making.",
+    fullDescription: "Analytics and Business Intelligence platforms are powerful tools that help organizations collect, process, and analyze vast amounts of data to uncover trends, patterns, and insights. These platforms enable data-driven decision making across all levels of an organization.",
+    features: [
       {
-        title"Real-time Analytics",
-        description"Live data processing and visualization for immediate insights",
-        icon
+        title: "Real-time Analytics",
+        description: "Live data processing and visualization for immediate insights",
+        icon: Target
       },
       {
-        title"Interactive Dashboards", 
-        description"Customizable visual interfaces for data exploration and monitoring",
-        icon
+        title: "Interactive Dashboards", 
+        description: "Customizable visual interfaces for data exploration and monitoring",
+        icon: Target
       },
       {
-        title"Predictive Modeling",
-        description"Advanced algorithms for forecasting and trend prediction",
-        icon
+        title: "Predictive Modeling",
+        description: "Advanced algorithms for forecasting and trend prediction",
+        icon: Target
       },
       {
-        title"Data Integration",
-        description"Seamless connection to multiple data sources and systems",
-        icon
+        title: "Data Integration",
+        description: "Seamless connection to multiple data sources and systems",
+        icon: Target
       }
     ],
     benefits[
@@ -132,19 +132,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Sales Performance Analysis",
-        description"Track sales metrics, pipeline performance, and revenue forecasting",
-        industry"Sales & Marketing"
+        title: "Sales Performance Analysis",
+        description: "Track sales metrics, pipeline performance, and revenue forecasting",
+        industry: "Sales & Marketing"
       },
       {
-        title"Customer Behavior Analytics",
-        description"Analyze customer journeys, preferences, and lifetime value",
-        industry"Retail & E-commerce"
+        title: "Customer Behavior Analytics",
+        description: "Analyze customer journeys, preferences, and lifetime value",
+        industry: "Retail & E-commerce"
       },
       {
-        title"Operational Intelligence",
-        description"Monitor KPIs, track performance, and optimize business processes",
-        industry"Manufacturing"
+        title: "Operational Intelligence",
+        description: "Monitor KPIs, track performance, and optimize business processes",
+        industry: "Manufacturing"
       }
     ],
     technologies["Power BI", "Tableau", "Qlik Sense", "Google Analytics", "Microsoft Azure Analytics", "SQL Server Reporting Services"],
@@ -162,54 +162,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Data Assessment",
-          duration"1-2 weeks",
-          description"Evaluation of existing data sources and quality assessment"
+          title: "Data Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluation of existing data sources and quality assessment"
         },
         {
-          title"Platform Setup",
-          duration"2-4 weeks",
-          description"BI platform configuration and data integration"
+          title: "Platform Setup",
+          duration: "2-4 weeks",
+          description: "BI platform configuration and data integration"
         },
         {
-          title"Dashboard Development",
-          duration"3-5 weeks",
-          description"Custom dashboard and report creation"
+          title: "Dashboard Development",
+          duration: "3-5 weeks",
+          description: "Custom dashboard and report creation"
         },
         {
-          title"Training & Deployment",
-          duration"2-3 weeks",
-          description"User training and system rollout"
+          title: "Training & Deployment",
+          duration: "2-3 weeks",
+          description: "User training and system rollout"
         }
       ]
     },
     relatedServices["Applied Data Analytics", "Digital Advisory", "Cloud Services"]
   },
   "cloud-infrastructure"{
-    title"Cloud Infrastructure",
-    category"Technology",
-    description"Scalable cloud computing platforms that enable flexible, secure, and cost-effective digital transformation.",
-    fullDescription"Cloud infrastructure provides the foundation for modern digital transformation by offering scalable, secure, and cost-effective computing resources. Our cloud solutions enable organizations to modernize their IT infrastructure, improve agility, and reduce operational costs.",
-    features[
+    title: "Cloud Infrastructure",
+    category: "Technology",
+    description: "Scalable cloud computing platforms that enable flexible, secure, and cost-effective digital transformation.",
+    fullDescription: "Cloud infrastructure provides the foundation for modern digital transformation by offering scalable, secure, and cost-effective computing resources. Our cloud solutions enable organizations to modernize their IT infrastructure, improve agility, and reduce operational costs.",
+    features: [
       {
-        title"Scalable Computing",
-        description"Auto-scaling resources based on demand to optimize performance and costs",
-        icon
+        title: "Scalable Computing",
+        description: "Auto-scaling resources based on demand to optimize performance and costs",
+        icon: Target
       },
       {
-        title"High Availability", 
-        description"Redundant infrastructure ensuring 99.99% uptime and reliability",
-        icon
+        title: "High Availability", 
+        description: "Redundant infrastructure ensuring 99.99% uptime and reliability",
+        icon: Target
       },
       {
-        title"Security & Compliance",
-        description"Enterprise-grade security with compliance certifications",
-        icon
+        title: "Security & Compliance",
+        description: "Enterprise-grade security with compliance certifications",
+        icon: Target
       },
       {
-        title"Cost Optimization",
-        description"Pay-as-you-use model with intelligent resource management",
-        icon
+        title: "Cost Optimization",
+        description: "Pay-as-you-use model with intelligent resource management",
+        icon: Target
       }
     ],
     benefits[
@@ -221,19 +221,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Application Hosting",
-        description"Host web applications and services with high availability",
-        industry"Technology"
+        title: "Application Hosting",
+        description: "Host web applications and services with high availability",
+        industry: "Technology"
       },
       {
-        title"Data Storage & Backup",
-        description"Secure data storage with automated backup solutions", 
-        industry"Enterprise"
+        title: "Data Storage & Backup",
+        description: "Secure data storage with automated backup solutions", 
+        industry: "Enterprise"
       },
       {
-        title"Development & Testing",
-        description"Flexible environments for development and testing",
-        industry"Software Development"
+        title: "Development & Testing",
+        description: "Flexible environments for development and testing",
+        industry: "Software Development"
       }
     ],
     technologies["Amazon AWS", "Microsoft Azure", "Google Cloud Platform", "Docker", "Kubernetes", "Terraform"],
@@ -251,54 +251,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Cloud Assessment",
-          duration"1-2 weeks",
-          description"Evaluate current infrastructure and cloud readiness"
+          title: "Cloud Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluate current infrastructure and cloud readiness"
         },
         {
-          title"Migration Planning", 
-          duration"2-3 weeks",
-          description"Design cloud architecture and migration strategy"
+          title: "Migration Planning", 
+          duration: "2-3 weeks",
+          description: "Design cloud architecture and migration strategy"
         },
         {
-          title"Migration Execution",
-          duration"4-8 weeks",
-          description"Execute migration with minimal downtime"
+          title: "Migration Execution",
+          duration: "4-8 weeks",
+          description: "Execute migration with minimal downtime"
         },
         {
-          title"Optimization",
-          duration"Ongoing",
-          description"Continuous monitoring and cost optimization"
+          title: "Optimization",
+          duration: "Ongoing",
+          description: "Continuous monitoring and cost optimization"
         }
       ]
     },
     relatedServices["Cloud Services", "Digital Advisory", "Managed IT Services"]
   },
   "process-automation"{
-    title"Process Automation",
-    category"Efficiency", 
-    description"Workflow automation and optimization tools that streamline business processes and improve operational efficiency.",
-    fullDescription"Process automation technologies help organizations eliminate manual, repetitive tasks while improving accuracy and efficiency. Our automation solutions integrate with existing systems to create seamless, intelligent workflows.",
-    features[
+    title: "Process Automation",
+    category: "Efficiency", 
+    description: "Workflow automation and optimization tools that streamline business processes and improve operational efficiency.",
+    fullDescription: "Process automation technologies help organizations eliminate manual, repetitive tasks while improving accuracy and efficiency. Our automation solutions integrate with existing systems to create seamless, intelligent workflows.",
+    features: [
       {
-        title"Workflow Design",
-        description"Visual workflow builder for creating complex automation processes",
-        icon
+        title: "Workflow Design",
+        description: "Visual workflow builder for creating complex automation processes",
+        icon: Target
       },
       {
-        title"System Integration",
-        description"Seamless integration with existing business applications",
-        icon
+        title: "System Integration",
+        description: "Seamless integration with existing business applications",
+        icon: Target
       },
       {
-        title"Rule Engine",
-        description"Intelligent decision-making based on business rules", 
-        icon
+        title: "Rule Engine",
+        description: "Intelligent decision-making based on business rules", 
+        icon: Target
       },
       {
-        title"Real-time Monitoring",
-        description"Live monitoring and reporting of automated processes",
-        icon
+        title: "Real-time Monitoring",
+        description: "Live monitoring and reporting of automated processes",
+        icon: Target
       }
     ],
     benefits[
@@ -310,19 +310,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Invoice Processing",
-        description"Automated invoice approval and payment workflows",
-        industry"Finance"
+        title: "Invoice Processing",
+        description: "Automated invoice approval and payment workflows",
+        industry: "Finance"
       },
       {
-        title"Customer Onboarding",
-        description"Streamlined customer registration and verification processes",
-        industry"Banking"
+        title: "Customer Onboarding",
+        description: "Streamlined customer registration and verification processes",
+        industry: "Banking"
       },
       {
-        title"HR Processes",
-        description"Automated employee onboarding and performance reviews",
-        industry"Human Resources"
+        title: "HR Processes",
+        description: "Automated employee onboarding and performance reviews",
+        industry: "Human Resources"
       }
     ],
     technologies["Microsoft Power Automate", "UiPath", "Blue Prism", "Automation Anywhere", "Zapier", "Microsoft Logic Apps"],
@@ -340,54 +340,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Process Analysis",
-          duration"1-2 weeks",
-          description"Analyze current processes and identify automation opportunities"
+          title: "Process Analysis",
+          duration: "1-2 weeks",
+          description: "Analyze current processes and identify automation opportunities"
         },
         {
-          title"Solution Design",
-          duration"2-3 weeks", 
-          description"Design automated workflows and integration points"
+          title: "Solution Design",
+          duration: "2-3 weeks", 
+          description: "Design automated workflows and integration points"
         },
         {
-          title"Development & Testing",
-          duration"3-6 weeks",
-          description"Build and test automation solutions"
+          title: "Development & Testing",
+          duration: "3-6 weeks",
+          description: "Build and test automation solutions"
         },
         {
-          title"Deployment & Support",
-          duration"1-2 weeks",
-          description"Deploy solutions and provide user training"
+          title: "Deployment & Support",
+          duration: "1-2 weeks",
+          description: "Deploy solutions and provide user training"
         }
       ]
     },
     relatedServices["Digital Advisory", "Application Development", "Managed IT Services"]
   },
   "digital-security"{
-    title"Digital Security",
-    category"Protection",
-    description"Cybersecurity and data protection solutions that safeguard digital assets and ensure business continuity.",
-    fullDescription"Digital security solutions protect organizations from cyber threats through comprehensive security frameworks, advanced threat detection, and proactive defense mechanisms. Our security approach covers people, processes, and technology.",
-    features[
+    title: "Digital Security",
+    category: "Protection",
+    description: "Cybersecurity and data protection solutions that safeguard digital assets and ensure business continuity.",
+    fullDescription: "Digital security solutions protect organizations from cyber threats through comprehensive security frameworks, advanced threat detection, and proactive defense mechanisms. Our security approach covers people, processes, and technology.",
+    features: [
       {
-        title"Threat Detection",
-        description"Advanced AI-powered threat detection and response systems",
-        icon
+        title: "Threat Detection",
+        description: "Advanced AI-powered threat detection and response systems",
+        icon: Target
       },
       {
-        title"Identity Management",
-        description"Secure identity and access management solutions",
-        icon
+        title: "Identity Management",
+        description: "Secure identity and access management solutions",
+        icon: Target
       },
       {
-        title"Data Protection",
-        description"Encryption and data loss prevention technologies",
-        icon
+        title: "Data Protection",
+        description: "Encryption and data loss prevention technologies",
+        icon: Target
       },
       {
-        title"Compliance Management",
-        description"Automated compliance monitoring and reporting",
-        icon
+        title: "Compliance Management",
+        description: "Automated compliance monitoring and reporting",
+        icon: Target
       }
     ],
     benefits[
@@ -399,19 +399,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Endpoint Protection",
-        description"Secure all devices and endpoints across the organization",
-        industry"Enterprise"
+        title: "Endpoint Protection",
+        description: "Secure all devices and endpoints across the organization",
+        industry: "Enterprise"
       },
       {
-        title"Data Privacy",
-        description"Protect sensitive customer and business data",
-        industry"Healthcare"
+        title: "Data Privacy",
+        description: "Protect sensitive customer and business data",
+        industry: "Healthcare"
       },
       {
-        title"Network Security",
-        description"Secure network infrastructure and communications",
-        industry"Financial Services"
+        title: "Network Security",
+        description: "Secure network infrastructure and communications",
+        industry: "Financial Services"
       }
     ],
     technologies["Microsoft Sentinel", "CrowdStrike", "Palo Alto Networks", "Fortinet", "Okta", "Azure Active Directory"],
@@ -429,54 +429,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Security Assessment",
-          duration"1-2 weeks",
-          description"Comprehensive security posture evaluation"
+          title: "Security Assessment",
+          duration: "1-2 weeks",
+          description: "Comprehensive security posture evaluation"
         },
         {
-          title"Strategy Development",
-          duration"2-3 weeks",
-          description"Create tailored security strategy and roadmap"
+          title: "Strategy Development",
+          duration: "2-3 weeks",
+          description: "Create tailored security strategy and roadmap"
         },
         {
-          title"Implementation",
-          duration"4-8 weeks",
-          description"Deploy security solutions and controls"
+          title: "Implementation",
+          duration: "4-8 weeks",
+          description: "Deploy security solutions and controls"
         },
         {
-          title"Monitoring & Support",
-          duration"Ongoing",
-          description"24/7 security monitoring and incident response"
+          title: "Monitoring & Support",
+          duration: "Ongoing",
+          description: "24/7 security monitoring and incident response"
         }
       ]
     },
     relatedServices["Cyber Security", "Digital Advisory", "Managed IT Services"]
   },
   "collaboration-platforms"{
-    title"Collaboration Platforms",
-    category"Communication",
-    description"Team collaboration and communication tools that enable seamless remote work and productivity.",
-    fullDescription"Modern collaboration platforms integrate communication, file sharing, project management, and productivity tools to create unified digital workspaces. These solutions enable teams to work effectively regardless of location or device.",
-    features[
+    title: "Collaboration Platforms",
+    category: "Communication",
+    description: "Team collaboration and communication tools that enable seamless remote work and productivity.",
+    fullDescription: "Modern collaboration platforms integrate communication, file sharing, project management, and productivity tools to create unified digital workspaces. These solutions enable teams to work effectively regardless of location or device.",
+    features: [
       {
-        title"Unified Communication",
-        description"Integrated chat, video, and voice communication",
-        icon
+        title: "Unified Communication",
+        description: "Integrated chat, video, and voice communication",
+        icon: Target
       },
       {
-        title"Document Collaboration",
-        description"Real-time document editing and sharing capabilities",
-        icon
+        title: "Document Collaboration",
+        description: "Real-time document editing and sharing capabilities",
+        icon: Target
       },
       {
-        title"Project Management",
-        description"Built-in project planning and task management tools",
-        icon
+        title: "Project Management",
+        description: "Built-in project planning and task management tools",
+        icon: Target
       },
       {
-        title"Mobile Access",
-        description"Full functionality across all devices and platforms",
-        icon
+        title: "Mobile Access",
+        description: "Full functionality across all devices and platforms",
+        icon: Target
       }
     ],
     benefits[
@@ -488,19 +488,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Remote Teams",
-        description"Enable effective collaboration for distributed teams",
-        industry"Technology"
+        title: "Remote Teams",
+        description: "Enable effective collaboration for distributed teams",
+        industry: "Technology"
       },
       {
-        title"Project Coordination",
-        description"Coordinate complex projects with multiple stakeholders",
-        industry"Construction"
+        title: "Project Coordination",
+        description: "Coordinate complex projects with multiple stakeholders",
+        industry: "Construction"
       },
       {
-        title"Knowledge Sharing",
-        description"Create centralized knowledge bases and wikis",
-        industry"Consulting"
+        title: "Knowledge Sharing",
+        description: "Create centralized knowledge bases and wikis",
+        industry: "Consulting"
       }
     ],
     technologies["Microsoft Teams", "Slack", "Zoom", "Asana", "Trello", "Notion"],
@@ -518,54 +518,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Requirements Analysis",
-          duration"1 week",
-          description"Assess collaboration needs and current tools"
+          title: "Requirements Analysis",
+          duration: "1 week",
+          description: "Assess collaboration needs and current tools"
         },
         {
-          title"Platform Setup",
-          duration"2-3 weeks",
-          description"Configure platform and integrate with existing systems"
+          title: "Platform Setup",
+          duration: "2-3 weeks",
+          description: "Configure platform and integrate with existing systems"
         },
         {
-          title"User Training",
-          duration"2-3 weeks",
-          description"Train users and establish best practices"
+          title: "User Training",
+          duration: "2-3 weeks",
+          description: "Train users and establish best practices"
         },
         {
-          title"Optimization",
-          duration"Ongoing",
-          description"Monitor usage and optimize workflows"
+          title: "Optimization",
+          duration: "Ongoing",
+          description: "Monitor usage and optimize workflows"
         }
       ]
     },
     relatedServices["Digital Advisory", "Managed IT Services", "Application Development"]
   },
   "ai-machine-learning"{
-    title"AI & Machine Learning",
-    category"Innovation",
-    description"Artificial intelligence and machine learning solutions that enable intelligent automation and data-driven insights.",
-    fullDescription"AI and Machine Learning technologies transform business operations by enabling intelligent automation, predictive analytics, and enhanced decision-making. Our AI solutions are designed to integrate seamlessly with existing business processes.",
-    features[
+    title: "AI & Machine Learning",
+    category: "Innovation",
+    description: "Artificial intelligence and machine learning solutions that enable intelligent automation and data-driven insights.",
+    fullDescription: "AI and Machine Learning technologies transform business operations by enabling intelligent automation, predictive analytics, and enhanced decision-making. Our AI solutions are designed to integrate seamlessly with existing business processes.",
+    features: [
       {
-        title"Predictive Analytics",
-        description"Advanced algorithms for forecasting and trend analysis",
-        icon
+        title: "Predictive Analytics",
+        description: "Advanced algorithms for forecasting and trend analysis",
+        icon: Target
       },
       {
-        title"Natural Language Processing",
-        description"Understanding and processing human language",
-        icon
+        title: "Natural Language Processing",
+        description: "Understanding and processing human language",
+        icon: Target
       },
       {
-        title"Computer Vision",
-        description"Automated image and video analysis capabilities",
-        icon
+        title: "Computer Vision",
+        description: "Automated image and video analysis capabilities",
+        icon: Target
       },
       {
-        title"Intelligent Automation",
-        description"AI-powered process automation and decision making",
-        icon
+        title: "Intelligent Automation",
+        description: "AI-powered process automation and decision making",
+        icon: Target
       }
     ],
     benefits[
@@ -577,19 +577,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Demand Forecasting",
-        description"Predict customer demand and optimize inventory",
-        industry"Retail"
+        title: "Demand Forecasting",
+        description: "Predict customer demand and optimize inventory",
+        industry: "Retail"
       },
       {
-        title"Fraud Detection",
-        description"Identify fraudulent transactions in real-time",
-        industry"Financial Services"
+        title: "Fraud Detection",
+        description: "Identify fraudulent transactions in real-time",
+        industry: "Financial Services"
       },
       {
-        title"Quality Control",
-        description"Automated quality inspection using computer vision",
-        industry"Manufacturing"
+        title: "Quality Control",
+        description: "Automated quality inspection using computer vision",
+        industry: "Manufacturing"
       }
     ],
     technologies["TensorFlow", "PyTorch", "Microsoft Azure AI", "Google Cloud AI", "Amazon SageMaker", "OpenAI"],
@@ -607,54 +607,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Data Assessment",
-          duration"1-2 weeks",
-          description"Evaluate data quality and AI readiness"
+          title: "Data Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluate data quality and AI readiness"
         },
         {
-          title"Model Development",
-          duration"4-8 weeks",
-          description"Develop and train AI models"
+          title: "Model Development",
+          duration: "4-8 weeks",
+          description: "Develop and train AI models"
         },
         {
-          title"Integration & Testing",
-          duration"3-4 weeks",
-          description"Integrate models with business systems"
+          title: "Integration & Testing",
+          duration: "3-4 weeks",
+          description: "Integrate models with business systems"
         },
         {
-          title"Deployment & Monitoring",
-          duration"Ongoing",
-          description"Deploy models and continuous performance monitoring"
+          title: "Deployment & Monitoring",
+          duration: "Ongoing",
+          description: "Deploy models and continuous performance monitoring"
         }
       ]
     },
     relatedServices["AI Smart Solutions", "Applied Data Analytics", "Digital Advisory"]
   },
   "digital-experience"{
-    title"Digital Experience",
-    category"Customer",
-    description"Customer experience and engagement platforms that create seamless, personalized digital interactions.",
-    fullDescription"Digital experience platforms enable organizations to create cohesive, personalized customer journeys across all digital touchpoints. These solutions integrate content management, personalization, and analytics to optimize customer engagement.",
-    features[
+    title: "Digital Experience",
+    category: "Customer",
+    description: "Customer experience and engagement platforms that create seamless, personalized digital interactions.",
+    fullDescription: "Digital experience platforms enable organizations to create cohesive, personalized customer journeys across all digital touchpoints. These solutions integrate content management, personalization, and analytics to optimize customer engagement.",
+    features: [
       {
-        title"Personalization Engine",
-        description"AI-powered content and experience personalization",
-        icon
+        title: "Personalization Engine",
+        description: "AI-powered content and experience personalization",
+        icon: Target
       },
       {
-        title"Omnichannel Integration",
-        description"Consistent experience across all customer touchpoints",
-        icon
+        title: "Omnichannel Integration",
+        description: "Consistent experience across all customer touchpoints",
+        icon: Target
       },
       {
-        title"Real-time Analytics",
-        description"Live customer behavior tracking and insights",
-        icon
+        title: "Real-time Analytics",
+        description: "Live customer behavior tracking and insights",
+        icon: Target
       },
       {
-        title"Content Management",
-        description"Dynamic content delivery and management",
-        icon
+        title: "Content Management",
+        description: "Dynamic content delivery and management",
+        icon: Target
       }
     ],
     benefits[
@@ -666,19 +666,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"E-commerce Personalization",
-        description"Personalized shopping experiences and recommendations",
-        industry"Retail"
+        title: "E-commerce Personalization",
+        description: "Personalized shopping experiences and recommendations",
+        industry: "Retail"
       },
       {
-        title"Digital Banking",
-        description"Seamless digital banking experiences across channels",
-        industry"Financial Services"
+        title: "Digital Banking",
+        description: "Seamless digital banking experiences across channels",
+        industry: "Financial Services"
       },
       {
-        title"Patient Portals",
-        description"User-friendly healthcare portals and appointment systems",
-        industry"Healthcare"
+        title: "Patient Portals",
+        description: "User-friendly healthcare portals and appointment systems",
+        industry: "Healthcare"
       }
     ],
     technologies["Adobe Experience Manager", "Sitecore", "Salesforce Experience Cloud", "Optimizely", "ContentStack", "Contentful"],
@@ -696,24 +696,24 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Experience Audit",
-          duration"1-2 weeks",
-          description"Assess current customer experience across touchpoints"
+          title: "Experience Audit",
+          duration: "1-2 weeks",
+          description: "Assess current customer experience across touchpoints"
         },
         {
-          title"Platform Design",
-          duration"3-4 weeks",
-          description"Design integrated experience architecture"
+          title: "Platform Design",
+          duration: "3-4 weeks",
+          description: "Design integrated experience architecture"
         },
         {
-          title"Implementation",
-          duration"6-10 weeks",
-          description"Implement platform and integrate systems"
+          title: "Implementation",
+          duration: "6-10 weeks",
+          description: "Implement platform and integrate systems"
         },
         {
-          title"Optimization",
-          duration"Ongoing",
-          description"Continuous testing and experience optimization"
+          title: "Optimization",
+          duration: "Ongoing",
+          description: "Continuous testing and experience optimization"
         }
       ]
     },
@@ -721,30 +721,30 @@ const technologiesData = {
   },
   // Applied Data Analytics Technologies
   "python-r"{
-    title"Python & R",
-    category"Analytics",
-    description"Advanced statistical computing and data analysis programming languages for comprehensive data science workflows.",
-    fullDescription"Python and R are the leading programming languages for data science, offering extensive libraries, statistical capabilities, and machine learning frameworks. These languages enable data scientists to perform complex analyses, build predictive models, and create sophisticated data visualizations.",
-    features[
+    title: "Python & R",
+    category: "Analytics",
+    description: "Advanced statistical computing and data analysis programming languages for comprehensive data science workflows.",
+    fullDescription: "Python and R are the leading programming languages for data science, offering extensive libraries, statistical capabilities, and machine learning frameworks. These languages enable data scientists to perform complex analyses, build predictive models, and create sophisticated data visualizations.",
+    features: [
       {
-        title"Statistical Analysis",
-        description"Comprehensive statistical functions and hypothesis testing capabilities",
-        icon
+        title: "Statistical Analysis",
+        description: "Comprehensive statistical functions and hypothesis testing capabilities",
+        icon: Target
       },
       {
-        title"Machine Learning Libraries",
-        description"Extensive ML libraries including scikit-learn, pandas, and numpy",
-        icon
+        title: "Machine Learning Libraries",
+        description: "Extensive ML libraries including scikit-learn, pandas, and numpy",
+        icon: Target
       },
       {
-        title"Data Visualization",
-        description"Advanced plotting and visualization capabilities with matplotlib and ggplot",
-        icon3
+        title: "Data Visualization",
+        description: "Advanced plotting and visualization capabilities with matplotlib and ggplot",
+        icon: BarChart3
       },
       {
-        title"Big Data Integration",
-        description"Seamless integration with big data platforms and databases",
-        icon
+        title: "Big Data Integration",
+        description: "Seamless integration with big data platforms and databases",
+        icon: Target
       }
     ],
     benefits[
@@ -756,19 +756,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Predictive Analytics",
-        description"Build forecasting models for business planning",
-        industry"Finance"
+        title: "Predictive Analytics",
+        description: "Build forecasting models for business planning",
+        industry: "Finance"
       },
       {
-        title"Customer Segmentation",
-        description"Analyze customer behavior and create targeted segments",
-        industry"Marketing"
+        title: "Customer Segmentation",
+        description: "Analyze customer behavior and create targeted segments",
+        industry: "Marketing"
       },
       {
-        title"Risk Assessment",
-        description"Develop risk models for insurance and lending",
-        industry"Insurance"
+        title: "Risk Assessment",
+        description: "Develop risk models for insurance and lending",
+        industry: "Insurance"
       }
     ],
     technologies["Python", "R", "Jupyter", "RStudio", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
@@ -786,54 +786,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Environment Setup",
-          duration"1 week",
-          description"Configure Python/R environments and data infrastructure"
+          title: "Environment Setup",
+          duration: "1 week",
+          description: "Configure Python/R environments and data infrastructure"
         },
         {
-          title"Data Preparation",
-          duration"2-3 weeks",
-          description"Clean, transform, and prepare data for analysis"
+          title: "Data Preparation",
+          duration: "2-3 weeks",
+          description: "Clean, transform, and prepare data for analysis"
         },
         {
-          title"Model Development",
-          duration"3-5 weeks",
-          description"Build and validate analytical models"
+          title: "Model Development",
+          duration: "3-5 weeks",
+          description: "Build and validate analytical models"
         },
         {
-          title"Deployment",
-          duration"1-2 weeks",
-          description"Deploy models and create monitoring systems"
+          title: "Deployment",
+          duration: "1-2 weeks",
+          description: "Deploy models and create monitoring systems"
         }
       ]
     },
     relatedServices["Applied Data Analytics", "AI Smart Solutions", "Digital Advisory"]
   },
   "tensorflow-pytorch"{
-    title"TensorFlow & PyTorch",
-    category"Machine Learning",
-    description"Leading deep learning and neural network frameworks for building sophisticated AI applications.",
-    fullDescription"TensorFlow and PyTorch are the most popular frameworks for developing deep learning models and neural networks. These platforms provide the tools and infrastructure needed to build, train, and deploy advanced AI systems at scale.",
-    features[
+    title: "TensorFlow & PyTorch",
+    category: "Machine Learning",
+    description: "Leading deep learning and neural network frameworks for building sophisticated AI applications.",
+    fullDescription: "TensorFlow and PyTorch are the most popular frameworks for developing deep learning models and neural networks. These platforms provide the tools and infrastructure needed to build, train, and deploy advanced AI systems at scale.",
+    features: [
       {
-        title"Deep Learning Models",
-        description"Build complex neural networks for various AI applications",
-        icon
+        title: "Deep Learning Models",
+        description: "Build complex neural networks for various AI applications",
+        icon: Target
       },
       {
-        title"GPU Acceleration",
-        description"Leverage GPU computing for faster model training",
-        icon
+        title: "GPU Acceleration",
+        description: "Leverage GPU computing for faster model training",
+        icon: Target
       },
       {
-        title"Model Deployment",
-        description"Deploy models across cloud, mobile, and edge devices",
-        icon
+        title: "Model Deployment",
+        description: "Deploy models across cloud, mobile, and edge devices",
+        icon: Target
       },
       {
-        title"Pre-trained Models",
-        description"Access to extensive libraries of pre-trained models",
-        icon
+        title: "Pre-trained Models",
+        description: "Access to extensive libraries of pre-trained models",
+        icon: Target
       }
     ],
     benefits[
@@ -845,19 +845,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Computer Vision",
-        description"Image recognition and automated visual inspection",
-        industry"Manufacturing"
+        title: "Computer Vision",
+        description: "Image recognition and automated visual inspection",
+        industry: "Manufacturing"
       },
       {
-        title"Natural Language Processing",
-        description"Text analysis and language understanding applications",
-        industry"Technology"
+        title: "Natural Language Processing",
+        description: "Text analysis and language understanding applications",
+        industry: "Technology"
       },
       {
-        title"Recommendation Systems",
-        description"Personalized content and product recommendations",
-        industry"E-commerce"
+        title: "Recommendation Systems",
+        description: "Personalized content and product recommendations",
+        industry: "E-commerce"
       }
     ],
     technologies["TensorFlow", "PyTorch", "Keras", "TensorBoard", "ONNX", "CUDA", "Docker", "Kubernetes"],
@@ -875,24 +875,24 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Infrastructure Setup",
-          duration"1-2 weeks",
-          description"Configure ML infrastructure and GPU resources"
+          title: "Infrastructure Setup",
+          duration: "1-2 weeks",
+          description: "Configure ML infrastructure and GPU resources"
         },
         {
-          title"Data Preparation",
-          duration"2-3 weeks",
-          description"Prepare and preprocess training datasets"
+          title: "Data Preparation",
+          duration: "2-3 weeks",
+          description: "Prepare and preprocess training datasets"
         },
         {
-          title"Model Development",
-          duration"4-6 weeks",
-          description"Design, train, and validate deep learning models"
+          title: "Model Development",
+          duration: "4-6 weeks",
+          description: "Design, train, and validate deep learning models"
         },
         {
-          title"Production Deployment",
-          duration"2-3 weeks",
-          description"Deploy models with monitoring and scaling"
+          title: "Production Deployment",
+          duration: "2-3 weeks",
+          description: "Deploy models with monitoring and scaling"
         }
       ]
     },
@@ -900,30 +900,30 @@ const technologiesData = {
   },
   // Application Development Technologies
   "react-nextjs"{
-    title"React & Next.js",
-    category"Frontend Development",
-    description"Modern JavaScript frameworks for building responsive, high-performance web applications and user interfaces.",
-    fullDescription"React and Next.js form a powerful combination for modern web development, enabling the creation of fast, SEO-friendly, and highly interactive web applications. These frameworks provide the foundation for scalable frontend development with server-side rendering capabilities.",
-    features[
+    title: "React & Next.js",
+    category: "Frontend Development",
+    description: "Modern JavaScript frameworks for building responsive, high-performance web applications and user interfaces.",
+    fullDescription: "React and Next.js form a powerful combination for modern web development, enabling the creation of fast, SEO-friendly, and highly interactive web applications. These frameworks provide the foundation for scalable frontend development with server-side rendering capabilities.",
+    features: [
       {
-        title"Component-Based Architecture",
-        description"Reusable UI components for consistent and maintainable interfaces",
-        icon
+        title: "Component-Based Architecture",
+        description: "Reusable UI components for consistent and maintainable interfaces",
+        icon: Target
       },
       {
-        title"Server-Side Rendering",
-        description"Improved SEO and faster initial page loads with Next.js",
-        icon
+        title: "Server-Side Rendering",
+        description: "Improved SEO and faster initial page loads with Next.js",
+        icon: Target
       },
       {
-        title"State Management",
-        description"Efficient state handling with React hooks and context",
-        icon
+        title: "State Management",
+        description: "Efficient state handling with React hooks and context",
+        icon: Target
       },
       {
-        title"Performance Optimization",
-        description"Built-in optimization features for fast loading applications",
-        icon
+        title: "Performance Optimization",
+        description: "Built-in optimization features for fast loading applications",
+        icon: Target
       }
     ],
     benefits[
@@ -935,19 +935,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"E-commerce Platforms",
-        description"Build fast, interactive online shopping experiences",
-        industry"Retail"
+        title: "E-commerce Platforms",
+        description: "Build fast, interactive online shopping experiences",
+        industry: "Retail"
       },
       {
-        title"Dashboard Applications",
-        description"Create data-rich admin panels and analytics dashboards",
-        industry"Enterprise"
+        title: "Dashboard Applications",
+        description: "Create data-rich admin panels and analytics dashboards",
+        industry: "Enterprise"
       },
       {
-        title"Content Management",
-        description"Develop flexible content management systems",
-        industry"Media"
+        title: "Content Management",
+        description: "Develop flexible content management systems",
+        industry: "Media"
       }
     ],
     technologies["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "React Router", "Webpack", "Vercel"],
@@ -965,24 +965,24 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Project Setup",
-          duration"1 week",
-          description"Configure development environment and project structure"
+          title: "Project Setup",
+          duration: "1 week",
+          description: "Configure development environment and project structure"
         },
         {
-          title"UI Development",
-          duration"4-6 weeks",
-          description"Build components and user interface"
+          title: "UI Development",
+          duration: "4-6 weeks",
+          description: "Build components and user interface"
         },
         {
-          title"Integration",
-          duration"2-3 weeks",
-          description"Integrate with APIs and backend services"
+          title: "Integration",
+          duration: "2-3 weeks",
+          description: "Integrate with APIs and backend services"
         },
         {
-          title"Testing & Deployment",
-          duration"1-2 weeks",
-          description"Test application and deploy to production"
+          title: "Testing & Deployment",
+          duration: "1-2 weeks",
+          description: "Test application and deploy to production"
         }
       ]
     },
@@ -990,30 +990,30 @@ const technologiesData = {
   },
   // Cloud Services Technologies  
   "amazon-web-services"{
-    title"Amazon Web Services",
-    category"Cloud Platform",
-    description"Comprehensive cloud computing platform offering scalable infrastructure, storage, and advanced services.",
-    fullDescription"Amazon Web Services (AWS) is the world's most comprehensive cloud platform, offering over 200 services from global data centers. AWS provides the infrastructure and tools needed to build, deploy, and scale applications efficiently while reducing costs.",
-    features[
+    title: "Amazon Web Services",
+    category: "Cloud Platform",
+    description: "Comprehensive cloud computing platform offering scalable infrastructure, storage, and advanced services.",
+    fullDescription: "Amazon Web Services (AWS) is the world's most comprehensive cloud platform, offering over 200 services from global data centers. AWS provides the infrastructure and tools needed to build, deploy, and scale applications efficiently while reducing costs.",
+    features: [
       {
-        title"Compute Services",
-        description"Scalable virtual servers and container services",
-        icon
+        title: "Compute Services",
+        description: "Scalable virtual servers and container services",
+        icon: Target
       },
       {
-        title"Storage Solutions",
-        description"Secure, durable, and scalable storage options",
-        icon
+        title: "Storage Solutions",
+        description: "Secure, durable, and scalable storage options",
+        icon: Target
       },
       {
-        title"Security & Compliance",
-        description"Enterprise-grade security with compliance certifications",
-        icon
+        title: "Security & Compliance",
+        description: "Enterprise-grade security with compliance certifications",
+        icon: Target
       },
       {
-        title"AI/ML Services",
-        description"Pre-built AI services and machine learning platforms",
-        icon
+        title: "AI/ML Services",
+        description: "Pre-built AI services and machine learning platforms",
+        icon: Target
       }
     ],
     benefits[
@@ -1025,19 +1025,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Web Applications",
-        description"Host scalable web applications with auto-scaling",
-        industry"Technology"
+        title: "Web Applications",
+        description: "Host scalable web applications with auto-scaling",
+        industry: "Technology"
       },
       {
-        title"Data Analytics",
-        description"Process and analyze large datasets in the cloud",
-        industry"Enterprise"
+        title: "Data Analytics",
+        description: "Process and analyze large datasets in the cloud",
+        industry: "Enterprise"
       },
       {
-        title"Backup & Recovery",
-        description"Reliable backup and disaster recovery solutions",
-        industry"All Industries"
+        title: "Backup & Recovery",
+        description: "Reliable backup and disaster recovery solutions",
+        industry: "All Industries"
       }
     ],
     technologies["EC2", "S3", "RDS", "Lambda", "CloudFront", "VPC", "IAM", "CloudWatch"],
@@ -1055,54 +1055,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Assessment & Planning",
-          duration"1-2 weeks",
-          description"Evaluate current infrastructure and plan AWS architecture"
+          title: "Assessment & Planning",
+          duration: "1-2 weeks",
+          description: "Evaluate current infrastructure and plan AWS architecture"
         },
         {
-          title"Migration Setup",
-          duration"2-4 weeks",
-          description"Configure AWS services and migration tools"
+          title: "Migration Setup",
+          duration: "2-4 weeks",
+          description: "Configure AWS services and migration tools"
         },
         {
-          title"Migration Execution",
-          duration"3-6 weeks",
-          description"Migrate applications and data to AWS"
+          title: "Migration Execution",
+          duration: "3-6 weeks",
+          description: "Migrate applications and data to AWS"
         },
         {
-          title"Optimization",
-          duration"Ongoing",
-          description"Monitor performance and optimize costs"
+          title: "Optimization",
+          duration: "Ongoing",
+          description: "Monitor performance and optimize costs"
         }
       ]
     },
     relatedServices["Cloud Services", "Digital Advisory", "Application Development"]
   },
   "apache-spark-kafka"{
-    title"Apache Spark & Kafka",
-    category"Big Data",
-    description"Large-scale data processing and real-time streaming platforms for handling massive datasets efficiently.",
-    fullDescription"Apache Spark and Kafka form a powerful combination for big data processing and real-time streaming. Spark provides fast, distributed computing for large-scale data processing, while Kafka serves as a high-throughput, fault-tolerant streaming platform for real-time data feeds.",
-    features[
+    title: "Apache Spark & Kafka",
+    category: "Big Data",
+    description: "Large-scale data processing and real-time streaming platforms for handling massive datasets efficiently.",
+    fullDescription: "Apache Spark and Kafka form a powerful combination for big data processing and real-time streaming. Spark provides fast, distributed computing for large-scale data processing, while Kafka serves as a high-throughput, fault-tolerant streaming platform for real-time data feeds.",
+    features: [
       {
-        title"Distributed Computing",
-        description"Process large datasets across multiple machines for superior performance",
-        icon
+        title: "Distributed Computing",
+        description: "Process large datasets across multiple machines for superior performance",
+        icon: Target
       },
       {
-        title"Real-time Streaming",
-        description"Handle millions of events per second with low latency",
-        icon
+        title: "Real-time Streaming",
+        description: "Handle millions of events per second with low latency",
+        icon: Target
       },
       {
-        title"Fault Tolerance",
-        description"Built-in resilience and automatic recovery from failures",
-        icon
+        title: "Fault Tolerance",
+        description: "Built-in resilience and automatic recovery from failures",
+        icon: Target
       },
       {
-        title"Scalable Architecture",
-        description"Horizontally scale to handle growing data volumes",
-        icon
+        title: "Scalable Architecture",
+        description: "Horizontally scale to handle growing data volumes",
+        icon: Target
       }
     ],
     benefits[
@@ -1114,19 +1114,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Real-time Analytics",
-        description"Process streaming data for immediate insights and alerts",
-        industry"Finance"
+        title: "Real-time Analytics",
+        description: "Process streaming data for immediate insights and alerts",
+        industry: "Finance"
       },
       {
-        title"ETL Processing",
-        description"Transform and load large datasets efficiently",
-        industry"Enterprise"
+        title: "ETL Processing",
+        description: "Transform and load large datasets efficiently",
+        industry: "Enterprise"
       },
       {
-        title"IoT Data Processing",
-        description"Handle sensor data streams from millions of devices",
-        industry"Manufacturing"
+        title: "IoT Data Processing",
+        description: "Handle sensor data streams from millions of devices",
+        industry: "Manufacturing"
       }
     ],
     technologies["Apache Spark", "Apache Kafka", "Scala", "Python", "Hadoop", "HDFS", "Zookeeper", "Kubernetes"],
@@ -1144,54 +1144,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Infrastructure Assessment",
-          duration"1-2 weeks",
-          description"Evaluate current data infrastructure and processing requirements"
+          title: "Infrastructure Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluate current data infrastructure and processing requirements"
         },
         {
-          title"Cluster Setup",
-          duration"2-3 weeks",
-          description"Configure Spark and Kafka clusters with optimal settings"
+          title: "Cluster Setup",
+          duration: "2-3 weeks",
+          description: "Configure Spark and Kafka clusters with optimal settings"
         },
         {
-          title"Pipeline Development",
-          duration"4-6 weeks",
-          description"Build data processing pipelines and streaming applications"
+          title: "Pipeline Development",
+          duration: "4-6 weeks",
+          description: "Build data processing pipelines and streaming applications"
         },
         {
-          title"Performance Optimization",
-          duration"2-3 weeks",
-          description"Tune performance and implement monitoring systems"
+          title: "Performance Optimization",
+          duration: "2-3 weeks",
+          description: "Tune performance and implement monitoring systems"
         }
       ]
     },
     relatedServices["Applied Data Analytics", "Cloud Services", "Digital Advisory"]
   },
   "tableau-power-bi"{
-    title"Tableau & Power BI",
-    category"Visualization",
-    description"Interactive dashboards and data visualization platforms for transforming complex data into actionable insights.",
-    fullDescription"Tableau and Power BI are leading business intelligence platforms that enable organizations to visualize data, create interactive dashboards, and share insights across teams. These tools democratize data analytics by making it accessible to business users without technical expertise.",
-    features[
+    title: "Tableau & Power BI",
+    category: "Visualization",
+    description: "Interactive dashboards and data visualization platforms for transforming complex data into actionable insights.",
+    fullDescription: "Tableau and Power BI are leading business intelligence platforms that enable organizations to visualize data, create interactive dashboards, and share insights across teams. These tools democratize data analytics by making it accessible to business users without technical expertise.",
+    features: [
       {
-        title"Interactive Dashboards",
-        description"Create dynamic, drill-down dashboards with real-time data updates",
-        icon
+        title: "Interactive Dashboards",
+        description: "Create dynamic, drill-down dashboards with real-time data updates",
+        icon: Target
       },
       {
-        title"Self-Service Analytics",
-        description"Empower business users to create their own reports and analysis",
-        icon
+        title: "Self-Service Analytics",
+        description: "Empower business users to create their own reports and analysis",
+        icon: Target
       },
       {
-        title"Data Connectivity",
-        description"Connect to hundreds of data sources and APIs seamlessly",
-        icon
+        title: "Data Connectivity",
+        description: "Connect to hundreds of data sources and APIs seamlessly",
+        icon: Target
       },
       {
-        title"Mobile Access",
-        description"Access dashboards and reports on any device, anywhere",
-        icon
+        title: "Mobile Access",
+        description: "Access dashboards and reports on any device, anywhere",
+        icon: Target
       }
     ],
     benefits[
@@ -1203,19 +1203,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Executive Dashboards",
-        description"High-level KPI monitoring for leadership teams",
-        industry"Executive"
+        title: "Executive Dashboards",
+        description: "High-level KPI monitoring for leadership teams",
+        industry: "Executive"
       },
       {
-        title"Sales Analytics",
-        description"Track sales performance, pipeline, and forecasting",
-        industry"Sales"
+        title: "Sales Analytics",
+        description: "Track sales performance, pipeline, and forecasting",
+        industry: "Sales"
       },
       {
-        title"Financial Reporting",
-        description"Automated financial reports and budget analysis",
-        industry"Finance"
+        title: "Financial Reporting",
+        description: "Automated financial reports and budget analysis",
+        industry: "Finance"
       }
     ],
     technologies["Tableau", "Power BI", "DAX", "SQL", "Python", "R", "Azure", "AWS"],
@@ -1233,54 +1233,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Data Assessment",
-          duration"1-2 weeks",
-          description"Evaluate data sources and visualization requirements"
+          title: "Data Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluate data sources and visualization requirements"
         },
         {
-          title"Dashboard Design",
-          duration"2-4 weeks",
-          description"Create wireframes and design interactive dashboards"
+          title: "Dashboard Design",
+          duration: "2-4 weeks",
+          description: "Create wireframes and design interactive dashboards"
         },
         {
-          title"Development",
-          duration"3-5 weeks",
-          description"Build dashboards and configure data connections"
+          title: "Development",
+          duration: "3-5 weeks",
+          description: "Build dashboards and configure data connections"
         },
         {
-          title"Training & Rollout",
-          duration"2-3 weeks",
-          description"Train users and deploy to production environment"
+          title: "Training & Rollout",
+          duration: "2-3 weeks",
+          description: "Train users and deploy to production environment"
         }
       ]
     },
     relatedServices["Applied Data Analytics", "Digital Advisory", "Business Intelligence"]
   },
   "aws-azure-ml"{
-    title"AWS & Azure ML",
-    category"Cloud Analytics",
-    description"Cloud-based machine learning platforms providing scalable AI/ML services for enterprise applications.",
-    fullDescription"AWS and Azure ML platforms offer comprehensive machine learning services that enable organizations to build, train, and deploy ML models at scale. These cloud platforms provide pre-built AI services, custom model development tools, and managed infrastructure for enterprise AI initiatives.",
-    features[
+    title: "AWS & Azure ML",
+    category: "Cloud Analytics",
+    description: "Cloud-based machine learning platforms providing scalable AI/ML services for enterprise applications.",
+    fullDescription: "AWS and Azure ML platforms offer comprehensive machine learning services that enable organizations to build, train, and deploy ML models at scale. These cloud platforms provide pre-built AI services, custom model development tools, and managed infrastructure for enterprise AI initiatives.",
+    features: [
       {
-        title"AutoML Capabilities",
-        description"Automated machine learning for rapid model development and deployment",
-        icon
+        title: "AutoML Capabilities",
+        description: "Automated machine learning for rapid model development and deployment",
+        icon: Target
       },
       {
-        title"Pre-built AI Services",
-        description"Ready-to-use APIs for vision, language, and speech recognition",
-        icon
+        title: "Pre-built AI Services",
+        description: "Ready-to-use APIs for vision, language, and speech recognition",
+        icon: Target
       },
       {
-        title"Scalable Infrastructure",
-        description"Elastic compute resources for training and inference workloads",
-        icon
+        title: "Scalable Infrastructure",
+        description: "Elastic compute resources for training and inference workloads",
+        icon: Target
       },
       {
-        title"MLOps Integration",
-        description"End-to-end ML lifecycle management with CI/CD pipelines",
-        icon
+        title: "MLOps Integration",
+        description: "End-to-end ML lifecycle management with CI/CD pipelines",
+        icon: Target
       }
     ],
     benefits[
@@ -1292,19 +1292,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Predictive Maintenance",
-        description"Forecast equipment failures and optimize maintenance schedules",
-        industry"Manufacturing"
+        title: "Predictive Maintenance",
+        description: "Forecast equipment failures and optimize maintenance schedules",
+        industry: "Manufacturing"
       },
       {
-        title"Customer Analytics",
-        description"Analyze customer behavior and predict churn patterns",
-        industry"Retail"
+        title: "Customer Analytics",
+        description: "Analyze customer behavior and predict churn patterns",
+        industry: "Retail"
       },
       {
-        title"Fraud Detection",
-        description"Real-time fraud detection for financial transactions",
-        industry"Finance"
+        title: "Fraud Detection",
+        description: "Real-time fraud detection for financial transactions",
+        industry: "Finance"
       }
     ],
     technologies["AWS SageMaker", "Azure ML Studio", "AWS Rekognition", "Azure Cognitive Services", "TensorFlow", "PyTorch", "Docker", "Kubernetes"],
@@ -1322,54 +1322,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Platform Assessment",
-          duration"1-2 weeks",
-          description"Evaluate ML requirements and select optimal cloud platform"
+          title: "Platform Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluate ML requirements and select optimal cloud platform"
         },
         {
-          title"Environment Setup",
-          duration"2-3 weeks",
-          description"Configure ML infrastructure and development environments"
+          title: "Environment Setup",
+          duration: "2-3 weeks",
+          description: "Configure ML infrastructure and development environments"
         },
         {
-          title"Model Development",
-          duration"4-8 weeks",
-          description"Build, train, and validate machine learning models"
+          title: "Model Development",
+          duration: "4-8 weeks",
+          description: "Build, train, and validate machine learning models"
         },
         {
-          title"Production Deployment",
-          duration"2-4 weeks",
-          description"Deploy models with monitoring and automated scaling"
+          title: "Production Deployment",
+          duration: "2-4 weeks",
+          description: "Deploy models with monitoring and automated scaling"
         }
       ]
     },
     relatedServices["AI Smart Solutions", "Applied Data Analytics", "Cloud Services"]
   },
   "elasticsearch-mongodb"{
-    title"Elasticsearch & MongoDB",
-    category"Data Storage",
-    description"NoSQL databases and search engines for flexible data storage and lightning-fast search capabilities.",
-    fullDescription"Elasticsearch and MongoDB provide modern data storage solutions that handle unstructured data, complex queries, and real-time search at scale. These technologies enable organizations to build flexible, scalable applications with powerful search and analytics capabilities.",
-    features[
+    title: "Elasticsearch & MongoDB",
+    category: "Data Storage",
+    description: "NoSQL databases and search engines for flexible data storage and lightning-fast search capabilities.",
+    fullDescription: "Elasticsearch and MongoDB provide modern data storage solutions that handle unstructured data, complex queries, and real-time search at scale. These technologies enable organizations to build flexible, scalable applications with powerful search and analytics capabilities.",
+    features: [
       {
-        title"Full-Text Search",
-        description"Lightning-fast search across massive datasets with relevance scoring",
-        icon
+        title: "Full-Text Search",
+        description: "Lightning-fast search across massive datasets with relevance scoring",
+        icon: Target
       },
       {
-        title"Flexible Schema",
-        description"Store and query JSON documents without rigid schema constraints",
-        icon
+        title: "Flexible Schema",
+        description: "Store and query JSON documents without rigid schema constraints",
+        icon: Target
       },
       {
-        title"Real-time Analytics",
-        description"Analyze data as it arrives with aggregation and visualization",
-        icon
+        title: "Real-time Analytics",
+        description: "Analyze data as it arrives with aggregation and visualization",
+        icon: Target
       },
       {
-        title"High Availability",
-        description"Built-in replication and clustering for fault tolerance",
-        icon
+        title: "High Availability",
+        description: "Built-in replication and clustering for fault tolerance",
+        icon: Target
       }
     ],
     benefits[
@@ -1381,19 +1381,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"E-commerce Search",
-        description"Power product search and recommendations for online stores",
-        industry"E-commerce"
+        title: "E-commerce Search",
+        description: "Power product search and recommendations for online stores",
+        industry: "E-commerce"
       },
       {
-        title"Log Analytics",
-        description"Centralize and analyze application logs for monitoring",
-        industry"Technology"
+        title: "Log Analytics",
+        description: "Centralize and analyze application logs for monitoring",
+        industry: "Technology"
       },
       {
-        title"Content Management",
-        description"Store and search large volumes of documents and media",
-        industry"Media"
+        title: "Content Management",
+        description: "Store and search large volumes of documents and media",
+        industry: "Media"
       }
     ],
     technologies["Elasticsearch", "MongoDB", "Kibana", "Logstash", "Node.js", "Python", "Java", "Docker"],
@@ -1411,54 +1411,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Data Architecture",
-          duration"1-2 weeks",
-          description"Design data models and search architecture"
+          title: "Data Architecture",
+          duration: "1-2 weeks",
+          description: "Design data models and search architecture"
         },
         {
-          title"Cluster Setup",
-          duration"2-3 weeks",
-          description"Configure database and search clusters"
+          title: "Cluster Setup",
+          duration: "2-3 weeks",
+          description: "Configure database and search clusters"
         },
         {
-          title"Data Migration",
-          duration"3-5 weeks",
-          description"Migrate existing data and build indexing pipelines"
+          title: "Data Migration",
+          duration: "3-5 weeks",
+          description: "Migrate existing data and build indexing pipelines"
         },
         {
-          title"Application Integration",
-          duration"2-4 weeks",
-          description"Integrate with applications and optimize performance"
+          title: "Application Integration",
+          duration: "2-4 weeks",
+          description: "Integrate with applications and optimize performance"
         }
       ]
     },
     relatedServices["Applied Data Analytics", "Application Development", "Cloud Services"]
   },
   "jupyter-apache-airflow"{
-    title"Jupyter & Apache Airflow",
-    category"Data Science",
-    description"Interactive development environment and workflow orchestration platform for data science and analytics workflows.",
-    fullDescription"Jupyter and Apache Airflow create a powerful ecosystem for data science and workflow automation. Jupyter provides interactive notebooks for exploratory data analysis and model development, while Airflow orchestrates complex data pipelines and ML workflows with scheduling and monitoring capabilities.",
-    features[
+    title: "Jupyter & Apache Airflow",
+    category: "Data Science",
+    description: "Interactive development environment and workflow orchestration platform for data science and analytics workflows.",
+    fullDescription: "Jupyter and Apache Airflow create a powerful ecosystem for data science and workflow automation. Jupyter provides interactive notebooks for exploratory data analysis and model development, while Airflow orchestrates complex data pipelines and ML workflows with scheduling and monitoring capabilities.",
+    features: [
       {
-        title"Interactive Development",
-        description"Live coding environment for data exploration and visualization",
-        icon2
+        title: "Interactive Development",
+        description: "Live coding environment for data exploration and visualization",
+        icon: Code2
       },
       {
-        title"Workflow Orchestration",
-        description"Schedule and monitor complex data pipelines with dependencies",
-        icon
+        title: "Workflow Orchestration",
+        description: "Schedule and monitor complex data pipelines with dependencies",
+        icon: Target
       },
       {
-        title"Version Control",
-        description"Track changes and collaborate on notebooks and workflows",
-        icon
+        title: "Version Control",
+        description: "Track changes and collaborate on notebooks and workflows",
+        icon: Target
       },
       {
-        title"Scalable Execution",
-        description"Execute workflows across distributed computing environments",
-        icon
+        title: "Scalable Execution",
+        description: "Execute workflows across distributed computing environments",
+        icon: Target
       }
     ],
     benefits[
@@ -1470,19 +1470,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Data Pipeline Automation",
-        description"Automate ETL processes and data transformations",
-        industry"Enterprise"
+        title: "Data Pipeline Automation",
+        description: "Automate ETL processes and data transformations",
+        industry: "Enterprise"
       },
       {
-        title"ML Model Training",
-        description"Schedule and monitor machine learning model training",
-        industry"Technology"
+        title: "ML Model Training",
+        description: "Schedule and monitor machine learning model training",
+        industry: "Technology"
       },
       {
-        title"Research & Development",
-        description"Interactive analysis and experimentation workflows",
-        industry"Research"
+        title: "Research & Development",
+        description: "Interactive analysis and experimentation workflows",
+        industry: "Research"
       }
     ],
     technologies["Jupyter", "Apache Airflow", "Python", "Pandas", "NumPy", "Docker", "Kubernetes", "PostgreSQL"],
@@ -1500,54 +1500,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Environment Setup",
-          duration"1-2 weeks",
-          description"Configure Jupyter and Airflow environments"
+          title: "Environment Setup",
+          duration: "1-2 weeks",
+          description: "Configure Jupyter and Airflow environments"
         },
         {
-          title"Workflow Design",
-          duration"2-4 weeks",
-          description"Design data pipelines and analysis workflows"
+          title: "Workflow Design",
+          duration: "2-4 weeks",
+          description: "Design data pipelines and analysis workflows"
         },
         {
-          title"Development",
-          duration"3-6 weeks",
-          description"Build notebooks and orchestration workflows"
+          title: "Development",
+          duration: "3-6 weeks",
+          description: "Build notebooks and orchestration workflows"
         },
         {
-          title"Production Deployment",
-          duration"1-3 weeks",
-          description"Deploy and monitor production workflows"
+          title: "Production Deployment",
+          duration: "1-3 weeks",
+          description: "Deploy and monitor production workflows"
         }
       ]
     },
     relatedServices["Applied Data Analytics", "AI Smart Solutions", "Digital Advisory"]
   },
   "nodejs-python"{
-    title"Node.js & Python",
-    category"Backend Development",
-    description"Modern server-side programming languages for building scalable web applications and APIs.",
-    fullDescription"Node.js and Python are leading technologies for backend development, offering excellent performance, extensive libraries, and strong community support. These languages enable rapid development of scalable web applications, APIs, and microservices architectures.",
-    features[
+    title: "Node.js & Python",
+    category: "Backend Development",
+    description: "Modern server-side programming languages for building scalable web applications and APIs.",
+    fullDescription: "Node.js and Python are leading technologies for backend development, offering excellent performance, extensive libraries, and strong community support. These languages enable rapid development of scalable web applications, APIs, and microservices architectures.",
+    features: [
       {
-        title"Asynchronous Processing",
-        description"Handle thousands of concurrent connections efficiently",
-        icon
+        title: "Asynchronous Processing",
+        description: "Handle thousands of concurrent connections efficiently",
+        icon: Target
       },
       {
-        title"Extensive Libraries",
-        description"Access to millions of packages and frameworks",
-        icon
+        title: "Extensive Libraries",
+        description: "Access to millions of packages and frameworks",
+        icon: Target
       },
       {
-        title"Cross-platform",
-        description"Deploy applications across different operating systems",
-        icon
+        title: "Cross-platform",
+        description: "Deploy applications across different operating systems",
+        icon: Target
       },
       {
-        title"API Development",
-        description"Build RESTful and GraphQL APIs with ease",
-        icon
+        title: "API Development",
+        description: "Build RESTful and GraphQL APIs with ease",
+        icon: Target
       }
     ],
     benefits[
@@ -1559,19 +1559,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Web Applications",
-        description"Build dynamic web applications with server-side rendering",
-        industry"Technology"
+        title: "Web Applications",
+        description: "Build dynamic web applications with server-side rendering",
+        industry: "Technology"
       },
       {
-        title"API Development",
-        description"Create RESTful APIs for mobile and web applications",
-        industry"Enterprise"
+        title: "API Development",
+        description: "Create RESTful APIs for mobile and web applications",
+        industry: "Enterprise"
       },
       {
-        title"Data Processing",
-        description"Process and analyze large datasets efficiently",
-        industry"Analytics"
+        title: "Data Processing",
+        description: "Process and analyze large datasets efficiently",
+        industry: "Analytics"
       }
     ],
     technologies["Node.js", "Python", "Express.js", "FastAPI", "Django", "Flask", "MongoDB", "PostgreSQL"],
@@ -1589,54 +1589,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Architecture Design",
-          duration"1-2 weeks",
-          description"Design system architecture and technology stack"
+          title: "Architecture Design",
+          duration: "1-2 weeks",
+          description: "Design system architecture and technology stack"
         },
         {
-          title"API Development",
-          duration"3-6 weeks",
-          description"Build core APIs and business logic"
+          title: "API Development",
+          duration: "3-6 weeks",
+          description: "Build core APIs and business logic"
         },
         {
-          title"Integration",
-          duration"2-4 weeks",
-          description"Integrate with databases and external services"
+          title: "Integration",
+          duration: "2-4 weeks",
+          description: "Integrate with databases and external services"
         },
         {
-          title"Testing & Deployment",
-          duration"2-3 weeks",
-          description"Test thoroughly and deploy to production"
+          title: "Testing & Deployment",
+          duration: "2-3 weeks",
+          description: "Test thoroughly and deploy to production"
         }
       ]
     },
     relatedServices["Application Development", "Digital Platforms", "Cloud Services"]
   },
   "postgresql-mongodb"{
-    title"PostgreSQL & MongoDB",
-    category"Database",
-    description"Robust relational and NoSQL database systems for diverse data storage and management needs.",
-    fullDescription"PostgreSQL and MongoDB provide complementary database solutions for modern applications. PostgreSQL offers ACID compliance and complex querying for structured data, while MongoDB provides flexible document storage for unstructured data and rapid development.",
-    features[
+    title: "PostgreSQL & MongoDB",
+    category: "Database",
+    description: "Robust relational and NoSQL database systems for diverse data storage and management needs.",
+    fullDescription: "PostgreSQL and MongoDB provide complementary database solutions for modern applications. PostgreSQL offers ACID compliance and complex querying for structured data, while MongoDB provides flexible document storage for unstructured data and rapid development.",
+    features: [
       {
-        title"ACID Compliance",
-        description"Ensure data consistency and reliability with transactions",
-        icon
+        title: "ACID Compliance",
+        description: "Ensure data consistency and reliability with transactions",
+        icon: Target
       },
       {
-        title"Flexible Schema",
-        description"Adapt to changing data requirements without migration",
-        icon
+        title: "Flexible Schema",
+        description: "Adapt to changing data requirements without migration",
+        icon: Target
       },
       {
-        title"Advanced Querying",
-        description"Complex queries with joins, aggregations, and full-text search",
-        icon
+        title: "Advanced Querying",
+        description: "Complex queries with joins, aggregations, and full-text search",
+        icon: Target
       },
       {
-        title"Horizontal Scaling",
-        description"Scale across multiple servers for high availability",
-        icon
+        title: "Horizontal Scaling",
+        description: "Scale across multiple servers for high availability",
+        icon: Target
       }
     ],
     benefits[
@@ -1648,19 +1648,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"E-commerce Platforms",
-        description"Handle product catalogs, orders, and customer data",
-        industry"E-commerce"
+        title: "E-commerce Platforms",
+        description: "Handle product catalogs, orders, and customer data",
+        industry: "E-commerce"
       },
       {
-        title"Content Management",
-        description"Store and manage articles, media, and metadata",
-        industry"Media"
+        title: "Content Management",
+        description: "Store and manage articles, media, and metadata",
+        industry: "Media"
       },
       {
-        title"Analytics Applications",
-        description"Store and query large volumes of analytical data",
-        industry"Analytics"
+        title: "Analytics Applications",
+        description: "Store and query large volumes of analytical data",
+        industry: "Analytics"
       }
     ],
     technologies["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Node.js", "Python", "Docker", "Kubernetes"],
@@ -1678,54 +1678,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Data Modeling",
-          duration"1-2 weeks",
-          description"Design database schemas and data models"
+          title: "Data Modeling",
+          duration: "1-2 weeks",
+          description: "Design database schemas and data models"
         },
         {
-          title"Database Setup",
-          duration"2-3 weeks",
-          description"Configure databases with replication and clustering"
+          title: "Database Setup",
+          duration: "2-3 weeks",
+          description: "Configure databases with replication and clustering"
         },
         {
-          title"Migration",
-          duration"3-5 weeks",
-          description"Migrate existing data and build indexing strategies"
+          title: "Migration",
+          duration: "3-5 weeks",
+          description: "Migrate existing data and build indexing strategies"
         },
         {
-          title"Optimization",
-          duration"2-3 weeks",
-          description"Performance tuning and monitoring setup"
+          title: "Optimization",
+          duration: "2-3 weeks",
+          description: "Performance tuning and monitoring setup"
         }
       ]
     },
     relatedServices["Application Development", "Cloud Services", "Digital Platforms"]
   },
   "react-native-flutter"{
-    title"React Native & Flutter",
-    category"Mobile Development",
-    description"Cross-platform mobile development frameworks for building native iOS and Android applications.",
-    fullDescription"React Native and Flutter are leading frameworks for cross-platform mobile development, enabling developers to create high-performance native mobile applications for both iOS and Android from a single codebase. These frameworks reduce development time and costs while maintaining native performance.",
-    features[
+    title: "React Native & Flutter",
+    category: "Mobile Development",
+    description: "Cross-platform mobile development frameworks for building native iOS and Android applications.",
+    fullDescription: "React Native and Flutter are leading frameworks for cross-platform mobile development, enabling developers to create high-performance native mobile applications for both iOS and Android from a single codebase. These frameworks reduce development time and costs while maintaining native performance.",
+    features: [
       {
-        title"Single Codebase",
-        description"Write once, deploy to both iOS and Android platforms",
-        icon2
+        title: "Single Codebase",
+        description: "Write once, deploy to both iOS and Android platforms",
+        icon: Code2
       },
       {
-        title"Native Performance",
-        description"Achieve near-native performance with optimized rendering",
-        icon
+        title: "Native Performance",
+        description: "Achieve near-native performance with optimized rendering",
+        icon: Target
       },
       {
-        title"Hot Reload",
-        description"See changes instantly during development without recompiling",
-        icon
+        title: "Hot Reload",
+        description: "See changes instantly during development without recompiling",
+        icon: Target
       },
       {
-        title"Rich Ecosystem",
-        description"Access to extensive libraries and third-party integrations",
-        icon
+        title: "Rich Ecosystem",
+        description: "Access to extensive libraries and third-party integrations",
+        icon: Target
       }
     ],
     benefits[
@@ -1737,19 +1737,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"E-commerce Apps",
-        description"Build shopping apps with payment integration and catalogs",
-        industry"E-commerce"
+        title: "E-commerce Apps",
+        description: "Build shopping apps with payment integration and catalogs",
+        industry: "E-commerce"
       },
       {
-        title"Social Media",
-        description"Create engaging social platforms with real-time features",
-        industry"Social"
+        title: "Social Media",
+        description: "Create engaging social platforms with real-time features",
+        industry: "Social"
       },
       {
-        title"Business Apps",
-        description"Develop productivity and enterprise mobile applications",
-        industry"Enterprise"
+        title: "Business Apps",
+        description: "Develop productivity and enterprise mobile applications",
+        industry: "Enterprise"
       }
     ],
     technologies["React Native", "Flutter", "Dart", "JavaScript", "TypeScript", "Firebase", "Redux", "Native APIs"],
@@ -1767,54 +1767,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Requirements Analysis",
-          duration"1-2 weeks",
-          description"Define app requirements and platform specifications"
+          title: "Requirements Analysis",
+          duration: "1-2 weeks",
+          description: "Define app requirements and platform specifications"
         },
         {
-          title"UI/UX Design",
-          duration"2-3 weeks",
-          description"Design user interface and user experience flows"
+          title: "UI/UX Design",
+          duration: "2-3 weeks",
+          description: "Design user interface and user experience flows"
         },
         {
-          title"Development",
-          duration"6-10 weeks",
-          description"Build application features and integrate APIs"
+          title: "Development",
+          duration: "6-10 weeks",
+          description: "Build application features and integrate APIs"
         },
         {
-          title"Testing & Launch",
-          duration"2-3 weeks",
-          description"Test thoroughly and publish to app stores"
+          title: "Testing & Launch",
+          duration: "2-3 weeks",
+          description: "Test thoroughly and publish to app stores"
         }
       ]
     },
     relatedServices["Application Development", "Digital Experience", "Digital Platforms"]
   },
   "ai-ml-integration"{
-    title"AI/ML Integration",
-    category"Integration",
-    description"Seamless integration of artificial intelligence and machine learning capabilities into existing business applications.",
-    fullDescription"AI/ML Integration services help organizations incorporate intelligent capabilities into their existing systems and applications. This includes implementing pre-trained models, custom AI solutions, and automated decision-making systems that enhance business processes and user experiences.",
-    features[
+    title: "AI/ML Integration",
+    category: "Integration",
+    description: "Seamless integration of artificial intelligence and machine learning capabilities into existing business applications.",
+    fullDescription: "AI/ML Integration services help organizations incorporate intelligent capabilities into their existing systems and applications. This includes implementing pre-trained models, custom AI solutions, and automated decision-making systems that enhance business processes and user experiences.",
+    features: [
       {
-        title"API Integration",
-        description"Connect with leading AI services and platforms seamlessly",
-        icon
+        title: "API Integration",
+        description: "Connect with leading AI services and platforms seamlessly",
+        icon: Target
       },
       {
-        title"Custom Models",
-        description"Deploy custom-trained models for specific business needs",
-        icon
+        title: "Custom Models",
+        description: "Deploy custom-trained models for specific business needs",
+        icon: Target
       },
       {
-        title"Real-time Processing",
-        description"Process and analyze data in real-time for immediate insights",
-        icon
+        title: "Real-time Processing",
+        description: "Process and analyze data in real-time for immediate insights",
+        icon: Target
       },
       {
-        title"Scalable Architecture",
-        description"Design systems that scale with growing AI workloads",
-        icon
+        title: "Scalable Architecture",
+        description: "Design systems that scale with growing AI workloads",
+        icon: Target
       }
     ],
     benefits[
@@ -1826,19 +1826,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Smart Recommendations",
-        description"Personalized product and content recommendations",
-        industry"E-commerce"
+        title: "Smart Recommendations",
+        description: "Personalized product and content recommendations",
+        industry: "E-commerce"
       },
       {
-        title"Intelligent Automation",
-        description"Automate document processing and data entry",
-        industry"Enterprise"
+        title: "Intelligent Automation",
+        description: "Automate document processing and data entry",
+        industry: "Enterprise"
       },
       {
-        title"Predictive Analytics",
-        description"Forecast trends and predict customer behavior",
-        industry"Finance"
+        title: "Predictive Analytics",
+        description: "Forecast trends and predict customer behavior",
+        industry: "Finance"
       }
     ],
     technologies["TensorFlow", "PyTorch", "Azure AI", "AWS AI", "Google AI", "OpenAI", "REST APIs", "GraphQL"],
@@ -1856,54 +1856,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"AI Assessment",
-          duration"1-2 weeks",
-          description"Evaluate AI opportunities and integration requirements"
+          title: "AI Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluate AI opportunities and integration requirements"
         },
         {
-          title"Model Selection",
-          duration"2-3 weeks",
-          description"Select appropriate AI models and services"
+          title: "Model Selection",
+          duration: "2-3 weeks",
+          description: "Select appropriate AI models and services"
         },
         {
-          title"Integration Development",
-          duration"4-8 weeks",
-          description"Develop and integrate AI capabilities"
+          title: "Integration Development",
+          duration: "4-8 weeks",
+          description: "Develop and integrate AI capabilities"
         },
         {
-          title"Testing & Optimization",
-          duration"2-4 weeks",
-          description"Test performance and optimize for production"
+          title: "Testing & Optimization",
+          duration: "2-4 weeks",
+          description: "Test performance and optimize for production"
         }
       ]
     },
     relatedServices["AI Smart Solutions", "Application Development", "Digital Advisory"]
   },
   "blockchain"{
-    title"Blockchain",
-    category"Security",
-    description"Distributed ledger technology for secure, transparent, and immutable digital transactions and record-keeping.",
-    fullDescription"Blockchain technology provides a secure, decentralized approach to digital transactions and data storage. Our blockchain solutions enable trust, transparency, and security for various business applications including supply chain, finance, and digital identity management.",
-    features[
+    title: "Blockchain",
+    category: "Security",
+    description: "Distributed ledger technology for secure, transparent, and immutable digital transactions and record-keeping.",
+    fullDescription: "Blockchain technology provides a secure, decentralized approach to digital transactions and data storage. Our blockchain solutions enable trust, transparency, and security for various business applications including supply chain, finance, and digital identity management.",
+    features: [
       {
-        title"Decentralization",
-        description"Eliminate single points of failure with distributed networks",
-        icon
+        title: "Decentralization",
+        description: "Eliminate single points of failure with distributed networks",
+        icon: Target
       },
       {
-        title"Immutable Records",
-        description"Ensure data integrity with tamper-proof transaction records",
-        icon
+        title: "Immutable Records",
+        description: "Ensure data integrity with tamper-proof transaction records",
+        icon: Target
       },
       {
-        title"Smart Contracts",
-        description"Automate agreements and processes with programmable contracts",
-        icon2
+        title: "Smart Contracts",
+        description: "Automate agreements and processes with programmable contracts",
+        icon: Code2
       },
       {
-        title"Transparency",
-        description"Provide full audit trails and transparent operations",
-        icon
+        title: "Transparency",
+        description: "Provide full audit trails and transparent operations",
+        icon: Target
       }
     ],
     benefits[
@@ -1915,19 +1915,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Supply Chain Tracking",
-        description"Track products from origin to consumer with transparency",
-        industry"Manufacturing"
+        title: "Supply Chain Tracking",
+        description: "Track products from origin to consumer with transparency",
+        industry: "Manufacturing"
       },
       {
-        title"Digital Identity",
-        description"Secure identity verification and credential management",
-        industry"Government"
+        title: "Digital Identity",
+        description: "Secure identity verification and credential management",
+        industry: "Government"
       },
       {
-        title"Financial Services",
-        description"Enable secure peer-to-peer transactions and settlements",
-        industry"Finance"
+        title: "Financial Services",
+        description: "Enable secure peer-to-peer transactions and settlements",
+        industry: "Finance"
       }
     ],
     technologies["Ethereum", "Hyperledger", "Solidity", "Web3.js", "IPFS", "Node.js", "Smart Contracts", "DApps"],
@@ -1945,54 +1945,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Use Case Analysis",
-          duration"2-3 weeks",
-          description"Identify blockchain opportunities and requirements"
+          title: "Use Case Analysis",
+          duration: "2-3 weeks",
+          description: "Identify blockchain opportunities and requirements"
         },
         {
-          title"Platform Selection",
-          duration"1-2 weeks",
-          description"Choose appropriate blockchain platform and architecture"
+          title: "Platform Selection",
+          duration: "1-2 weeks",
+          description: "Choose appropriate blockchain platform and architecture"
         },
         {
-          title"Development",
-          duration"6-12 weeks",
-          description"Build smart contracts and blockchain applications"
+          title: "Development",
+          duration: "6-12 weeks",
+          description: "Build smart contracts and blockchain applications"
         },
         {
-          title"Deployment & Testing",
-          duration"3-4 weeks",
-          description"Deploy to blockchain network and conduct security testing"
+          title: "Deployment & Testing",
+          duration: "3-4 weeks",
+          description: "Deploy to blockchain network and conduct security testing"
         }
       ]
     },
     relatedServices["Digital Security", "Application Development", "Digital Advisory"]
   },
   "microsoft-azure"{
-    title"Microsoft Azure",
-    category"Cloud Platform", 
-    description"Comprehensive cloud computing platform offering infrastructure, platform, and software services.",
-    fullDescription"Microsoft Azure provides a complete cloud computing platform with over 200 services spanning compute, storage, networking, databases, analytics, and AI. Azure enables organizations to build, deploy, and manage applications across a global network of data centers.",
-    features[
+    title: "Microsoft Azure",
+    category: "Cloud Platform", 
+    description: "Comprehensive cloud computing platform offering infrastructure, platform, and software services.",
+    fullDescription: "Microsoft Azure provides a complete cloud computing platform with over 200 services spanning compute, storage, networking, databases, analytics, and AI. Azure enables organizations to build, deploy, and manage applications across a global network of data centers.",
+    features: [
       {
-        title"Hybrid Cloud",
-        description"Seamless integration between on-premises and cloud environments",
-        icon
+        title: "Hybrid Cloud",
+        description: "Seamless integration between on-premises and cloud environments",
+        icon: Target
       },
       {
-        title"AI & ML Services",
-        description"Built-in artificial intelligence and machine learning capabilities",
-        icon
+        title: "AI & ML Services",
+        description: "Built-in artificial intelligence and machine learning capabilities",
+        icon: Target
       },
       {
-        title"Enterprise Security",
-        description"Advanced security features with compliance certifications",
-        icon
+        title: "Enterprise Security",
+        description: "Advanced security features with compliance certifications",
+        icon: Target
       },
       {
-        title"DevOps Integration",
-        description"Integrated development and operations toolchain",
-        icon2
+        title: "DevOps Integration",
+        description: "Integrated development and operations toolchain",
+        icon: Code2
       }
     ],
     benefits[
@@ -2004,19 +2004,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Enterprise Applications",
-        description"Host mission-critical business applications",
-        industry"Enterprise"
+        title: "Enterprise Applications",
+        description: "Host mission-critical business applications",
+        industry: "Enterprise"
       },
       {
-        title"Data Analytics",
-        description"Process and analyze big data with Azure Synapse",
-        industry"Analytics"
+        title: "Data Analytics",
+        description: "Process and analyze big data with Azure Synapse",
+        industry: "Analytics"
       },
       {
-        title"AI Solutions",
-        description"Build and deploy AI applications at scale",
-        industry"Technology"
+        title: "AI Solutions",
+        description: "Build and deploy AI applications at scale",
+        industry: "Technology"
       }
     ],
     technologies["Azure VMs", "Azure SQL", "Azure Functions", "Azure Kubernetes", "Power BI", "Azure AD", "Logic Apps", "Cosmos DB"],
@@ -2034,54 +2034,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Cloud Readiness Assessment",
-          duration"2-3 weeks",
-          description"Evaluate current infrastructure and cloud readiness"
+          title: "Cloud Readiness Assessment",
+          duration: "2-3 weeks",
+          description: "Evaluate current infrastructure and cloud readiness"
         },
         {
-          title"Migration Planning",
-          duration"3-4 weeks",
-          description"Design Azure architecture and migration strategy"
+          title: "Migration Planning",
+          duration: "3-4 weeks",
+          description: "Design Azure architecture and migration strategy"
         },
         {
-          title"Migration Execution",
-          duration"6-12 weeks",
-          description"Migrate applications and data to Azure"
+          title: "Migration Execution",
+          duration: "6-12 weeks",
+          description: "Migrate applications and data to Azure"
         },
         {
-          title"Optimization",
-          duration"Ongoing",
-          description"Monitor, optimize, and enhance cloud operations"
+          title: "Optimization",
+          duration: "Ongoing",
+          description: "Monitor, optimize, and enhance cloud operations"
         }
       ]
     },
     relatedServices["Cloud Services", "Digital Advisory", "Application Development"]
   },
   "google-cloud"{
-    title"Google Cloud",
-    category"Cloud Platform",
-    description"Advanced cloud computing platform with leading AI/ML capabilities and global infrastructure.",
-    fullDescription"Google Cloud Platform (GCP) offers cutting-edge cloud services built on Google's infrastructure, providing advanced analytics, machine learning, and data processing capabilities. GCP enables organizations to leverage Google's innovation in AI and big data technologies.",
-    features[
+    title: "Google Cloud",
+    category: "Cloud Platform",
+    description: "Advanced cloud computing platform with leading AI/ML capabilities and global infrastructure.",
+    fullDescription: "Google Cloud Platform (GCP) offers cutting-edge cloud services built on Google's infrastructure, providing advanced analytics, machine learning, and data processing capabilities. GCP enables organizations to leverage Google's innovation in AI and big data technologies.",
+    features: [
       {
-        title"AI & ML Leadership",
-        description"Industry-leading AI services and TensorFlow integration",
-        icon
+        title: "AI & ML Leadership",
+        description: "Industry-leading AI services and TensorFlow integration",
+        icon: Target
       },
       {
-        title"Data Analytics",
-        description"BigQuery for serverless data warehouse and analytics",
-        icon
+        title: "Data Analytics",
+        description: "BigQuery for serverless data warehouse and analytics",
+        icon: Target
       },
       {
-        title"Global Network",
-        description"Google's private global network for fast, reliable connections",
-        icon
+        title: "Global Network",
+        description: "Google's private global network for fast, reliable connections",
+        icon: Target
       },
       {
-        title"Kubernetes Native",
-        description"Native Kubernetes support with Google Kubernetes Engine",
-        icon2
+        title: "Kubernetes Native",
+        description: "Native Kubernetes support with Google Kubernetes Engine",
+        icon: Code2
       }
     ],
     benefits[
@@ -2093,19 +2093,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Data Analytics",
-        description"Process massive datasets with BigQuery and Dataflow",
-        industry"Enterprise"
+        title: "Data Analytics",
+        description: "Process massive datasets with BigQuery and Dataflow",
+        industry: "Enterprise"
       },
       {
-        title"Machine Learning",
-        description"Build and deploy ML models with Vertex AI",
-        industry"Technology"
+        title: "Machine Learning",
+        description: "Build and deploy ML models with Vertex AI",
+        industry: "Technology"
       },
       {
-        title"Application Modernization",
-        description"Containerize applications with Google Kubernetes Engine",
-        industry"All Industries"
+        title: "Application Modernization",
+        description: "Containerize applications with Google Kubernetes Engine",
+        industry: "All Industries"
       }
     ],
     technologies["BigQuery", "Vertex AI", "Google Kubernetes Engine", "Cloud Functions", "Firestore", "Cloud Storage", "Cloud Run", "TensorFlow"],
@@ -2123,54 +2123,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Cloud Strategy",
-          duration"2-3 weeks",
-          description"Define cloud strategy and assess current infrastructure"
+          title: "Cloud Strategy",
+          duration: "2-3 weeks",
+          description: "Define cloud strategy and assess current infrastructure"
         },
         {
-          title"Architecture Design",
-          duration"3-4 weeks",
-          description"Design Google Cloud architecture and migration plan"
+          title: "Architecture Design",
+          duration: "3-4 weeks",
+          description: "Design Google Cloud architecture and migration plan"
         },
         {
-          title"Migration & Development",
-          duration"8-16 weeks",
-          description"Migrate workloads and develop cloud-native applications"
+          title: "Migration & Development",
+          duration: "8-16 weeks",
+          description: "Migrate workloads and develop cloud-native applications"
         },
         {
-          title"Optimization",
-          duration"Ongoing",
-          description"Continuous optimization and cost management"
+          title: "Optimization",
+          duration: "Ongoing",
+          description: "Continuous optimization and cost management"
         }
       ]
     },
     relatedServices["Cloud Services", "AI Smart Solutions", "Applied Data Analytics"]
   },
   "multi-cloud-strategy"{
-    title"Multi-Cloud Strategy",
-    category"Cloud Architecture",
-    description"Strategic approach to using multiple cloud providers for optimal performance, cost, and risk management.",
-    fullDescription"Multi-cloud strategy involves distributing workloads across multiple cloud providers to avoid vendor lock-in, optimize costs, and enhance resilience. This approach enables organizations to leverage the best services from each cloud provider while maintaining flexibility and reducing risk.",
-    features[
+    title: "Multi-Cloud Strategy",
+    category: "Cloud Architecture",
+    description: "Strategic approach to using multiple cloud providers for optimal performance, cost, and risk management.",
+    fullDescription: "Multi-cloud strategy involves distributing workloads across multiple cloud providers to avoid vendor lock-in, optimize costs, and enhance resilience. This approach enables organizations to leverage the best services from each cloud provider while maintaining flexibility and reducing risk.",
+    features: [
       {
-        title"Vendor Independence",
-        description"Avoid vendor lock-in with flexible multi-provider architecture",
-        icon
+        title: "Vendor Independence",
+        description: "Avoid vendor lock-in with flexible multi-provider architecture",
+        icon: Target
       },
       {
-        title"Cost Optimization",
-        description"Optimize costs by selecting best-priced services from each provider",
-        icon
+        title: "Cost Optimization",
+        description: "Optimize costs by selecting best-priced services from each provider",
+        icon: Target
       },
       {
-        title"Risk Mitigation",
-        description"Reduce single points of failure with distributed architecture",
-        icon
+        title: "Risk Mitigation",
+        description: "Reduce single points of failure with distributed architecture",
+        icon: Target
       },
       {
-        title"Best-of-Breed",
-        description"Choose optimal services from each cloud provider",
-        icon
+        title: "Best-of-Breed",
+        description: "Choose optimal services from each cloud provider",
+        icon: Target
       }
     ],
     benefits[
@@ -2182,19 +2182,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Global Operations",
-        description"Deploy applications across regions with optimal cloud providers",
-        industry"Enterprise"
+        title: "Global Operations",
+        description: "Deploy applications across regions with optimal cloud providers",
+        industry: "Enterprise"
       },
       {
-        title"Disaster Recovery",
-        description"Implement robust DR strategies across multiple clouds",
-        industry"Financial Services"
+        title: "Disaster Recovery",
+        description: "Implement robust DR strategies across multiple clouds",
+        industry: "Financial Services"
       },
       {
-        title"Data Residency",
-        description"Meet regulatory requirements with strategic data placement",
-        industry"Healthcare"
+        title: "Data Residency",
+        description: "Meet regulatory requirements with strategic data placement",
+        industry: "Healthcare"
       }
     ],
     technologies["AWS", "Azure", "Google Cloud", "Kubernetes", "Terraform", "Istio", "Consul", "Prometheus"],
@@ -2212,54 +2212,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Strategy Development",
-          duration"3-4 weeks",
-          description"Develop multi-cloud strategy and governance framework"
+          title: "Strategy Development",
+          duration: "3-4 weeks",
+          description: "Develop multi-cloud strategy and governance framework"
         },
         {
-          title"Architecture Design",
-          duration"4-6 weeks",
-          description"Design multi-cloud architecture and integration patterns"
+          title: "Architecture Design",
+          duration: "4-6 weeks",
+          description: "Design multi-cloud architecture and integration patterns"
         },
         {
-          title"Implementation",
-          duration"12-20 weeks",
-          description"Implement multi-cloud infrastructure and applications"
+          title: "Implementation",
+          duration: "12-20 weeks",
+          description: "Implement multi-cloud infrastructure and applications"
         },
         {
-          title"Management & Optimization",
-          duration"Ongoing",
-          description"Continuous monitoring and optimization across clouds"
+          title: "Management & Optimization",
+          duration: "Ongoing",
+          description: "Continuous monitoring and optimization across clouds"
         }
       ]
     },
     relatedServices["Cloud Services", "Digital Advisory", "DevOps Integration"]
   },
   "private-cloud"{
-    title"Private Cloud",
-    category"Cloud Infrastructure",
-    description"Dedicated cloud infrastructure providing enhanced security, control, and compliance for enterprise workloads.",
-    fullDescription"Private cloud solutions offer dedicated infrastructure that provides the benefits of cloud computing while maintaining complete control over security, compliance, and performance. Ideal for organizations with strict regulatory requirements or sensitive data handling needs.",
-    features[
+    title: "Private Cloud",
+    category: "Cloud Infrastructure",
+    description: "Dedicated cloud infrastructure providing enhanced security, control, and compliance for enterprise workloads.",
+    fullDescription: "Private cloud solutions offer dedicated infrastructure that provides the benefits of cloud computing while maintaining complete control over security, compliance, and performance. Ideal for organizations with strict regulatory requirements or sensitive data handling needs.",
+    features: [
       {
-        title"Enhanced Security",
-        description"Dedicated infrastructure with customizable security controls",
-        icon
+        title: "Enhanced Security",
+        description: "Dedicated infrastructure with customizable security controls",
+        icon: Target
       },
       {
-        title"Regulatory Compliance",
-        description"Meet strict compliance requirements with controlled environments",
-        icon
+        title: "Regulatory Compliance",
+        description: "Meet strict compliance requirements with controlled environments",
+        icon: Target
       },
       {
-        title"Performance Control",
-        description"Predictable performance with dedicated resources",
-        icon
+        title: "Performance Control",
+        description: "Predictable performance with dedicated resources",
+        icon: Target
       },
       {
-        title"Custom Configuration",
-        description"Tailored infrastructure to meet specific business needs",
-        icon
+        title: "Custom Configuration",
+        description: "Tailored infrastructure to meet specific business needs",
+        icon: Target
       }
     ],
     benefits[
@@ -2271,19 +2271,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Financial Services",
-        description"Handle sensitive financial data with regulatory compliance",
-        industry"Finance"
+        title: "Financial Services",
+        description: "Handle sensitive financial data with regulatory compliance",
+        industry: "Finance"
       },
       {
-        title"Healthcare Systems",
-        description"Protect patient data while enabling digital transformation",
-        industry"Healthcare"
+        title: "Healthcare Systems",
+        description: "Protect patient data while enabling digital transformation",
+        industry: "Healthcare"
       },
       {
-        title"Government Agencies",
-        description"Secure cloud infrastructure for sensitive government operations",
-        industry"Government"
+        title: "Government Agencies",
+        description: "Secure cloud infrastructure for sensitive government operations",
+        industry: "Government"
       }
     ],
     technologies["VMware vSphere", "OpenStack", "Hyper-V", "KVM", "Kubernetes", "Docker", "Ansible", "Terraform"],
@@ -2301,54 +2301,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Requirements Assessment",
-          duration"2-3 weeks",
-          description"Assess security, compliance, and performance requirements"
+          title: "Requirements Assessment",
+          duration: "2-3 weeks",
+          description: "Assess security, compliance, and performance requirements"
         },
         {
-          title"Infrastructure Design",
-          duration"3-5 weeks",
-          description"Design private cloud architecture and security controls"
+          title: "Infrastructure Design",
+          duration: "3-5 weeks",
+          description: "Design private cloud architecture and security controls"
         },
         {
-          title"Deployment",
-          duration"8-12 weeks",
-          description"Deploy and configure private cloud infrastructure"
+          title: "Deployment",
+          duration: "8-12 weeks",
+          description: "Deploy and configure private cloud infrastructure"
         },
         {
-          title"Management & Support",
-          duration"Ongoing",
-          description"Ongoing management and optimization of private cloud"
+          title: "Management & Support",
+          duration: "Ongoing",
+          description: "Ongoing management and optimization of private cloud"
         }
       ]
     },
     relatedServices["Cloud Services", "Digital Security", "Managed IT Services"]
   },
   "edge-computing"{
-    title"Edge Computing",
-    category"Infrastructure",
-    description"Distributed computing paradigm bringing computation closer to data sources for reduced latency and improved performance.",
-    fullDescription"Edge computing enables processing and analysis of data at or near the source of data generation, reducing latency and bandwidth usage. This approach is critical for IoT applications, real-time analytics, and applications requiring immediate response times.",
-    features[
+    title: "Edge Computing",
+    category: "Infrastructure",
+    description: "Distributed computing paradigm bringing computation closer to data sources for reduced latency and improved performance.",
+    fullDescription: "Edge computing enables processing and analysis of data at or near the source of data generation, reducing latency and bandwidth usage. This approach is critical for IoT applications, real-time analytics, and applications requiring immediate response times.",
+    features: [
       {
-        title"Low Latency",
-        description"Minimize response times with local data processing",
-        icon
+        title: "Low Latency",
+        description: "Minimize response times with local data processing",
+        icon: Target
       },
       {
-        title"Bandwidth Optimization",
-        description"Reduce bandwidth usage by processing data locally",
-        icon
+        title: "Bandwidth Optimization",
+        description: "Reduce bandwidth usage by processing data locally",
+        icon: Target
       },
       {
-        title"Real-time Processing",
-        description"Enable immediate data analysis and decision making",
-        icon
+        title: "Real-time Processing",
+        description: "Enable immediate data analysis and decision making",
+        icon: Target
       },
       {
-        title"Distributed Architecture",
-        description"Scale processing across multiple edge locations",
-        icon
+        title: "Distributed Architecture",
+        description: "Scale processing across multiple edge locations",
+        icon: Target
       }
     ],
     benefits[
@@ -2360,19 +2360,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"IoT Applications",
-        description"Process sensor data from industrial equipment in real-time",
-        industry"Manufacturing"
+        title: "IoT Applications",
+        description: "Process sensor data from industrial equipment in real-time",
+        industry: "Manufacturing"
       },
       {
-        title"Autonomous Vehicles",
-        description"Enable real-time decision making for self-driving cars",
-        industry"Automotive"
+        title: "Autonomous Vehicles",
+        description: "Enable real-time decision making for self-driving cars",
+        industry: "Automotive"
       },
       {
-        title"Smart Cities",
-        description"Process traffic and infrastructure data for city optimization",
-        industry"Government"
+        title: "Smart Cities",
+        description: "Process traffic and infrastructure data for city optimization",
+        industry: "Government"
       }
     ],
     technologies["AWS Greengrass", "Azure IoT Edge", "Google Cloud IoT", "Kubernetes", "Docker", "OpenFaaS", "MQTT", "InfluxDB"],
@@ -2390,54 +2390,54 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Edge Assessment",
-          duration"2-3 weeks",
-          description"Assess edge computing requirements and infrastructure needs"
+          title: "Edge Assessment",
+          duration: "2-3 weeks",
+          description: "Assess edge computing requirements and infrastructure needs"
         },
         {
-          title"Architecture Design",
-          duration"3-4 weeks",
-          description"Design edge computing architecture and deployment strategy"
+          title: "Architecture Design",
+          duration: "3-4 weeks",
+          description: "Design edge computing architecture and deployment strategy"
         },
         {
-          title"Deployment",
-          duration"6-10 weeks",
-          description"Deploy edge infrastructure and applications"
+          title: "Deployment",
+          duration: "6-10 weeks",
+          description: "Deploy edge infrastructure and applications"
         },
         {
-          title"Monitoring & Optimization",
-          duration"Ongoing",
-          description"Monitor performance and optimize edge deployments"
+          title: "Monitoring & Optimization",
+          duration: "Ongoing",
+          description: "Monitor performance and optimize edge deployments"
         }
       ]
     },
     relatedServices["Cloud Services", "AI Smart Solutions", "IoT Solutions"]
   },
   "devops-integration"{
-    title"DevOps Integration",
-    category"Development",
-    description"Integration of development and operations practices for faster, more reliable software delivery and deployment.",
-    fullDescription"DevOps integration brings together development and operations teams through shared practices, tools, and cultural changes. This approach enables continuous integration, continuous deployment, and faster delivery of high-quality software solutions.",
-    features[
+    title: "DevOps Integration",
+    category: "Development",
+    description: "Integration of development and operations practices for faster, more reliable software delivery and deployment.",
+    fullDescription: "DevOps integration brings together development and operations teams through shared practices, tools, and cultural changes. This approach enables continuous integration, continuous deployment, and faster delivery of high-quality software solutions.",
+    features: [
       {
-        title"Continuous Integration",
-        description"Automated code integration and testing workflows",
-        icon2
+        title: "Continuous Integration",
+        description: "Automated code integration and testing workflows",
+        icon: Code2
       },
       {
-        title"Automated Deployment",
-        description"Streamlined deployment pipelines with zero-downtime releases",
-        icon
+        title: "Automated Deployment",
+        description: "Streamlined deployment pipelines with zero-downtime releases",
+        icon: Target
       },
       {
-        title"Infrastructure as Code",
-        description"Manage infrastructure through version-controlled code",
-        icon
+        title: "Infrastructure as Code",
+        description: "Manage infrastructure through version-controlled code",
+        icon: Target
       },
       {
-        title"Monitoring & Feedback",
-        description"Comprehensive monitoring with real-time feedback loops",
-        icon
+        title: "Monitoring & Feedback",
+        description: "Comprehensive monitoring with real-time feedback loops",
+        icon: Target
       }
     ],
     benefits[
@@ -2449,19 +2449,19 @@ const technologiesData = {
     ],
     useCases[
       {
-        title"Software Development",
-        description"Accelerate application development and deployment cycles",
-        industry"Technology"
+        title: "Software Development",
+        description: "Accelerate application development and deployment cycles",
+        industry: "Technology"
       },
       {
-        title"Enterprise Applications",
-        description"Modernize legacy application deployment processes",
-        industry"Enterprise"
+        title: "Enterprise Applications",
+        description: "Modernize legacy application deployment processes",
+        industry: "Enterprise"
       },
       {
-        title"Microservices",
-        description"Manage complex microservices architectures efficiently",
-        industry"All Industries"
+        title: "Microservices",
+        description: "Manage complex microservices architectures efficiently",
+        industry: "All Industries"
       }
     ],
     technologies["Jenkins", "GitLab CI/CD", "Docker", "Kubernetes", "Terraform", "Ansible", "Prometheus", "Grafana"],
@@ -2479,24 +2479,24 @@ const technologiesData = {
     implementation{
       phases[
         {
-          title"Current State Assessment",
-          duration"1-2 weeks",
-          description"Evaluate existing development and deployment processes"
+          title: "Current State Assessment",
+          duration: "1-2 weeks",
+          description: "Evaluate existing development and deployment processes"
         },
         {
-          title"Pipeline Design",
-          duration"2-4 weeks",
-          description"Design CI/CD pipelines and infrastructure automation"
+          title: "Pipeline Design",
+          duration: "2-4 weeks",
+          description: "Design CI/CD pipelines and infrastructure automation"
         },
         {
-          title"Implementation",
-          duration"6-10 weeks",
-          description"Implement DevOps tools and processes"
+          title: "Implementation",
+          duration: "6-10 weeks",
+          description: "Implement DevOps tools and processes"
         },
         {
-          title"Culture & Training",
-          duration"4-8 weeks",
-          description"Train teams and establish DevOps culture"
+          title: "Culture & Training",
+          duration: "4-8 weeks",
+          description: "Train teams and establish DevOps culture"
         }
       ]
     },

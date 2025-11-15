@@ -15,9 +15,9 @@ const fetchArticleBySlug = async (slug) => {
   const data = await response.json();
   return {
     ...data.article,
-    dateValue Date(data.article.dateValue),
-    createdAt.article.createdAt ? new Date(data.article.createdAt) ,
-    updatedAt.article.updatedAt ? new Date(data.article.updatedAt) 
+    dateValue: new Date(data.article.dateValue),
+    createdAt: data.article.createdAt ? new Date(data.article.createdAt) : null,
+    updatedAt: data.article.updatedAt ? new Date(data.article.updatedAt) : null
   };
 };
 

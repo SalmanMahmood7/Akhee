@@ -19,14 +19,8 @@ import {
 } from "lucide-react";
 import servicesBg from "@/assets/services-bg.jpg";
 
-// Service type definition
-interface Service {
-  title;
-  description;
-  icon;
-  href;
-  order;
-}
+// Service type definition (converted to JavaScript comment)
+// Service structure: { title, description, icon, href, order }
 
 // Icon mapping for dynamic icon rendering
 const iconMapping = {

@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(sed:*)",
+      "Bash(find:*)",
+      "Bash(for:*)",
+      "Bash(do)",
+      "Bash(done)",
+      "Bash(pkill:*)",
+      "Bash(grep:*)",
+      "Bash(curl:*)",
+      "Bash(node:*)",
+      "Bash(do sed -i 's/\\([a-zA-Z_][a-zA-Z0-9_]*\\)\"\"/\\1: \"\"/g' \"$file\")",
+      "Bash(npm run kill:servers:*)",
+      "Bash(npm run build:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

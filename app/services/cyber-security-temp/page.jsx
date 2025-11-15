@@ -9,47 +9,47 @@ export default function CyberSecurity() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const totalSlides = 8;
   const slidesToShow = 3;
-  const [selectedService, setSelectedService] = useState<any>(null);
-  const [showModal, setShowModal] = useState<boolean>(false);
-  const [openFAQ, setOpenFAQ] = useState<number | null>(null);
+  const [selectedService, setSelectedService] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+  const [openFAQ, setOpenFAQ] = useState(null);
 
   const servicesData = {
-    threatDetection{
-      title"AI-Powered Threat Detection",
-      description"Advanced machine learning algorithms continuously monitor your digital infrastructure"
+    threatDetection: {
+      title: "AI-Powered Threat Detection",
+      description: "Advanced machine learning algorithms continuously monitor your digital infrastructure"
     },
-    penetrationTesting{
-      title"Penetration Testing", 
-      description"Advanced vulnerability assessment and ethical hacking services"
+    penetrationTesting: {
+      title: "Penetration Testing", 
+      description: "Advanced vulnerability assessment and ethical hacking services"
     },
-    cloudSecurity{
-      title"Cloud Security",
-      description"Comprehensive cloud infrastructure protection and compliance"
+    cloudSecurity: {
+      title: "Cloud Security",
+      description: "Comprehensive cloud infrastructure protection and compliance"
     },
-    identityManagement{
-      title"Identity Management",
-      description"Advanced authentication and access control solutions"
+    identityManagement: {
+      title: "Identity Management",
+      description: "Advanced authentication and access control solutions"
     },
-    dataProtection{
-      title"Data Protection",
-      description"Enterprise-grade encryption and data loss prevention"
+    dataProtection: {
+      title: "Data Protection",
+      description: "Enterprise-grade encryption and data loss prevention"
     }
   };
 
   const handleLearnMore = (serviceKey) => {
-    setSelectedService(servicesData[serviceKey as keyof typeof servicesData]);
+    setSelectedService(servicesData[serviceKey]);
     setShowModal(true);
   };
 
   const nextSlide = () => {
     setCurrentSlide((prev) => 
-      prev >= totalSlides - slidesToShow ? 0  + 1
+      prev >= totalSlides - slidesToShow ? 0 : prev + 1
     );
   };
 
   const prevSlide = () => {
     setCurrentSlide((prev) => 
-      prev <= 0 ? totalSlides - slidesToShow  - 1
+      prev <= 0 ? totalSlides - slidesToShow : prev - 1
     );
   };
 
